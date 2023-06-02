@@ -1,0 +1,5340 @@
+{
+  "Splits": {
+    "Train": {
+      "n_videos": 479,
+      "n_categories": 713,
+      "n_stage2_segments": 12267,
+      "n_stage3_segments": 16053,
+      "segment_hours": 251.45290762222228
+    },
+    "Val": {
+      "n_videos": 160,
+      "n_categories": 529,
+      "n_stage2_segments": 3929,
+      "n_stage3_segments": 5828,
+      "segment_hours": 85.63147779444485
+    },
+    "Test": {
+      "n_videos": 159,
+      "n_categories": 527,
+      "n_stage2_segments": 3365,
+      "n_stage3_segments": 4884,
+      "segment_hours": 73.89317786944417
+    }
+  },
+  "Step category distributions": {
+    "Train": [
+      {
+        "COOKING_COMMON: OTHER": 1236
+      },
+      {
+        "Clean and organize kitchen: Wash dishes and utensils in kitchen sink": 1068
+      },
+      {
+        "Cook over the stovetop: Stir fry ingredients in a wok or large pan": 897
+      },
+      {
+        "Cook over the stovetop: Check and adjust the heat on the stovetop": 584
+      },
+      {
+        "Clean and organize kitchen: Wash hands": 540
+      },
+      {
+        "Prepare ingredients: Wash ingredients": 510
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Arrange the dough on a baking tray": 484
+      },
+      {
+        "Clean and organize kitchen: Dispose an item in the trash bin": 483
+      },
+      {
+        "General kitchen activity: Use phone": 446
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Flip the bread to cook the other side": 435
+      },
+      {
+        "COOKING_GENERAL: OTHER": 419
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Roll out the dough on a floured surface": 415
+      },
+      {
+        "Prepare ingredients: Peel the skin of ingredients": 370
+      },
+      {
+        "Cook over the stovetop: Add oil or butter on a pan": 358
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Evenly cook flatbread on both sides in a skillet over medium heat": 345
+      },
+      {
+        "GENERAL_COMMON: OTHER": 329
+      },
+      {
+        "Clean and organize kitchen: Clean and clear kitchen surfaces": 321
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with hands or a mixer": 307
+      },
+      {
+        "Cook in the oven: Bake ingredients in oven": 304
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Press down the dough to flatten it": 294
+      },
+      {
+        "Clean and organize kitchen: Put ingredients into refrigerator or freezer": 280
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange cooking tools or utensils": 276
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Cut the dough into desired shapes": 275
+      },
+      {
+        "Serve food or drinks: Serve food on a plate": 273
+      },
+      {
+        "Serve food or drinks: Serve food": 259
+      },
+      {
+        "Prepare ingredients: Cut other vegetables": 239
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients on kitchen countertop for cooking": 225
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add dry ingredients to the dough or batter": 218
+      },
+      {
+        "Prepare ingredients: Cut onion": 218
+      },
+      {
+        "Clean and organize kitchen: Wipe hands": 214
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Shape the dough into balls": 213
+      },
+      {
+        "Add ingredients to recipe: Add spices to recipe": 202
+      },
+      {
+        "Prepare ingredients: Measure ingredients": 197
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with hands": 197
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make dough or batter by mixing flour, water, oil, and other ingredients": 196
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Coat the dough with flour": 196
+      },
+      {
+        "Serve food or drinks: Eat and drink": 179
+      },
+      {
+        "General kitchen activity: Unpack or unwrap ingredients": 178
+      },
+      {
+        "General kitchen activity: Strain or drain liquids from ingredients": 167
+      },
+      {
+        "Clean and organize kitchen: Get ingredients from refrigerator or freezer": 162
+      },
+      {
+        "Cook with boiling water: Boil water in a pot or kettle": 162
+      },
+      {
+        "Prepare ingredients: Cut pepper": 161
+      },
+      {
+        "Add ingredients to recipe: Add salt to recipe": 160
+      },
+      {
+        "Cook over the stovetop: Preheat a pan on the stovetop": 157
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Pipe the batter into desired shapes": 153
+      },
+      {
+        "Prepare ingredients: Cut other fruits": 151
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir ingredients": 146
+      },
+      {
+        "General kitchen activity: Taste ingredients or recipe": 145
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir soup": 133
+      },
+      {
+        "COOKING_COMMON: Fetch water into a container": 131
+      },
+      {
+        "COOKING_GENERAL: Stir or move around ingredients on a pan or pot": 130
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add wet ingredients to the dough or batter": 128
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Deep fry the dough": 124
+      },
+      {
+        "Cook in the oven: Check and adjust the heat on the oven": 122
+      },
+      {
+        "MAKE_BREAD: OTHER": 122
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Roll out the dough on a floured surface and cut into desired shapes": 118
+      },
+      {
+        "Prepare ingredients: Cut meat or seafood": 114
+      },
+      {
+        "Cook over the stovetop: Turn on the stovetop": 112
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Transfer cooked flatbread to a plate or a bowl": 112
+      },
+      {
+        "Add ingredients to recipe: Add sauce to recipe": 110
+      },
+      {
+        "General kitchen activity: Cover kitchen items or ingredients with a lid": 109
+      },
+      {
+        "Add ingredients to recipe: Add vegetables to recipe": 102
+      },
+      {
+        "MAKE_BREAD: Roll out the dough on a floured surface": 101
+      },
+      {
+        "COOKING_GENERAL: Stir ingredients": 101
+      },
+      {
+        "Cook in the oven: Put ingredients into the oven": 99
+      },
+      {
+        "Clean and organize kitchen: Get ingredients from pantry or shelf": 98
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir or move around ingredients on a pan or pot": 98
+      },
+      {
+        "Add ingredients to recipe: Add herbs to recipe": 97
+      },
+      {
+        "Prepare ingredients: Cut garlic": 97
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 96
+      },
+      {
+        "Add ingredients to recipe: Add oil or butter to recipe": 95
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add ingredients into a pan or pot": 95
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Mix the dough in the dough mixer": 93
+      },
+      {
+        "Add ingredients to recipe: Add other seasoning to recipe": 91
+      },
+      {
+        "COOKING_COMMON: Return ingredients to pantry or shelf": 89
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sprinkle flour onto the cooking surface": 86
+      },
+      {
+        "Add ingredients to recipe: Add unspecified ingredient to recipe": 86
+      },
+      {
+        "Clean and organize kitchen: Clean up the kitchen area": 85
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Fill a piping bag with the batter": 84
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Stir ingredients": 83
+      },
+      {
+        "Prepare ingredients: Remove seeds from ingredients": 83
+      },
+      {
+        "Prepare ingredients: Cut carrot": 82
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Proof dough to rise": 81
+      },
+      {
+        "MAKE_PASTA: Stir ingredients": 81
+      },
+      {
+        "Prepare ingredients: Cut other ingredients": 79
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Add ingredients into a pan or pot": 79
+      },
+      {
+        "Prepare ingredients: Cut cabbage": 78
+      },
+      {
+        "Operate cooking equipment: Set the timer": 77
+      },
+      {
+        "General kitchen activity: Check the recipe instruction": 77
+      },
+      {
+        "Prepare ingredients: Cut tomato": 74
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Mix ingredients": 74
+      },
+      {
+        "Clean and organize kitchen: Get cooking tools or utensils to use": 74
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add toppings on the dough": 74
+      },
+      {
+        "Clean and organize kitchen: Clean cooking appliances": 73
+      },
+      {
+        "Serve food or drinks: Set the dining table": 71
+      },
+      {
+        "Cook over the stovetop: Turn off the stovetop": 70
+      },
+      {
+        "Cook over the stovetop: Pan sear meat or fish": 70
+      },
+      {
+        "Clean and organize kitchen: Organize and store food and ingredients": 69
+      },
+      {
+        "Prepare ingredients: Cut cucumber": 69
+      },
+      {
+        "MAKE_FLATBREAD: OTHER": 69
+      },
+      {
+        "Cook on the wood stove: Check and adjust the heat on the wood stove": 68
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Stir ingredients": 68
+      },
+      {
+        "Serve food or drinks: Serve food on in a bowl": 65
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add batter onto a skillet to cook": 63
+      },
+      {
+        "Clean and organize kitchen: Wipe dishes and utensils with clothes": 63
+      },
+      {
+        "COOKING_GENERAL: Roll out the dough on a floured surface": 61
+      },
+      {
+        "COOKING_GENERAL: Flip or turn ingredients on a pan or pot": 60
+      },
+      {
+        "Prepare ingredients: Cut mango": 58
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Add ingredients into a pan or pot": 58
+      },
+      {
+        "MAKE_PANCAKE: Flip the pancakes and cook until golden brown, about 1 minute": 57
+      },
+      {
+        "Add ingredients to recipe: Add pepper spice to recipe": 57
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Mix ingredients": 56
+      },
+      {
+        "General kitchen activity: Use computer": 55
+      },
+      {
+        "Cook in the microwave: Cook ingredients in a microwave": 54
+      },
+      {
+        "Add ingredients to recipe: Add onion to recipe": 54
+      },
+      {
+        "Cook in the oven: Turn on the oven": 54
+      },
+      {
+        "Cook over the stovetop: Put a pan or pot on the stovetop": 54
+      },
+      {
+        "Prepare and cook eggs: Fry eggs on a pan until the egg white is set": 53
+      },
+      {
+        "Add ingredients to recipe: Add soy sauce to recipe": 53
+      },
+      {
+        "COOKING_GENERAL: Add ingredients into a pan or pot": 53
+      },
+      {
+        "Prepare ingredients: Cut potato": 52
+      },
+      {
+        "MAKE_SALAD: Put all the ingredients into a bowl and mix them together": 52
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare soup": 51
+      },
+      {
+        "Prepare ingredients: Remove the hard shell of ingredient": 51
+      },
+      {
+        "COOKING_COMMON: Remove ingredients from the oven": 49
+      },
+      {
+        "Cook rice: Cook rice in a pot": 49
+      },
+      {
+        "Add ingredients to recipe: Add meat recipe": 49
+      },
+      {
+        "General kitchen activity: Check the doneness of recipe": 49
+      },
+      {
+        "MAKE_PASTA: Saute in a pan": 49
+      },
+      {
+        "Cook in the oven: Arrange ingredients in oven tray or baking pan": 49
+      },
+      {
+        "Prepare and cook eggs: Make an egg mixture": 48
+      },
+      {
+        "Clean and organize kitchen: Return cooking tools or utensils after use": 48
+      },
+      {
+        "COOKING_COMMON: Pack or wrap ingredients": 48
+      },
+      {
+        "Add ingredients to recipe: Add tomato to recipe": 48
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Stir or move around ingredients on a pan or pot": 47
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Operate the dough mixer": 46
+      },
+      {
+        "COOKING_COMMON: Fetch water into a pot": 45
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add any additional ingredients to the mixture": 44
+      },
+      {
+        "Prepare ingredients: Cut mushroom": 44
+      },
+      {
+        "Make recipe in blender: Add ingredients to the blender": 44
+      },
+      {
+        "MAKE_PASTA: Stir or move around ingredients on a pan or pot": 44
+      },
+      {
+        "MAKE_FLATBREAD: Flip or turn ingredients on a pan or pot": 43
+      },
+      {
+        "Serve food or drinks: Serve drinks": 42
+      },
+      {
+        "Add ingredients to recipe: Add fruits to recipe": 42
+      },
+      {
+        "Prepare ingredients: Cut spring onion or leek": 41
+      },
+      {
+        "Prepare ingredients: Cut broccoli": 41
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Prepare the ingredients, including rice, meat, vegetables and spices": 40
+      },
+      {
+        "MAKE_SAMOSA: Put the filling in the center of each square": 40
+      },
+      {
+        "Cook over the stovetop: Adjust a pan or pot on the stovetop": 39
+      },
+      {
+        "Clean and organize kitchen: Clean and clear kitchen floor": 38
+      },
+      {
+        "Cook with boiling water: Cook noodles in boiling water": 38
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare sauce": 38
+      },
+      {
+        "COOKING_COMMON: Mash ingredients using a fork, masher, or food processor": 38
+      },
+      {
+        "Add ingredients to recipe: Add pepper to recipe": 38
+      },
+      {
+        "Prepare and cook eggs: Crack eggs into a bowl": 37
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Grese dough to prevent it from sticking and easier to handle": 36
+      },
+      {
+        "MAKE_PASTRY: OTHER": 36
+      },
+      {
+        "Add ingredients to recipe: Add sweetener to recipe": 35
+      },
+      {
+        "Add ingredients to recipe: Add garlic to recipe": 35
+      },
+      {
+        "MAKE_PASTA: Mix ingredients": 35
+      },
+      {
+        "COOKING_COMMON: Whisk ingredients": 35
+      },
+      {
+        "Prepare ingredients: Cut eggplant": 34
+      },
+      {
+        "COOKING_GENERAL: Mix ingredients": 34
+      },
+      {
+        "MAKE_JUICE: OTHER": 34
+      },
+      {
+        "Add ingredients to recipe: Add flour or baking power to recipe": 33
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Boil ingredients in water": 33
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sieve or sift dry ingredients like flour or grains": 33
+      },
+      {
+        "Prepare ingredients: Prepare corn": 33
+      },
+      {
+        "Add ingredients to recipe: Add cabbage to recipe": 33
+      },
+      {
+        "Add ingredients to recipe: Add milk to recipe": 32
+      },
+      {
+        "MAKE_PASTRY: Mix ingredients": 32
+      },
+      {
+        "MAKE_PASTA: Add ingredients into a pan or pot": 32
+      },
+      {
+        "COOKING_COMMON: Blend ingredients in the blender": 32
+      },
+      {
+        "MAKE_PASTRY: Stir ingredients": 31
+      },
+      {
+        "Operate cooking equipment: Turn on the range hood": 30
+      },
+      {
+        "MAKE_BREAD: Mix ingredients": 30
+      },
+      {
+        "COOKING_COMMON: Marinate ingredients": 30
+      },
+      {
+        "Make bread-based dishes: Toast some bread": 30
+      },
+      {
+        "MAKE_STEAK_DISH: Flip the steak to cook the other side": 30
+      },
+      {
+        "MAKE_PASTRY: Blend ingredients": 30
+      },
+      {
+        "MAKE_FLATBREAD: Add ingredients into a pan or pot": 30
+      },
+      {
+        "GRIND_SPICE: Grind the spice until it is ground to your liking": 29
+      },
+      {
+        "COOKING_COMMON: Garnish the dish": 29
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare meat dishes": 29
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Stir or move around ingredients on a pan or pot": 29
+      },
+      {
+        "COOKING_COMMON: Check ingredients around on a pan or pot": 28
+      },
+      {
+        "Clean and organize kitchen: Store ingredients into a ziplock bag or container": 28
+      },
+      {
+        "Prepare ingredients: Cut cheese": 28
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Boil ingredients in water": 28
+      },
+      {
+        "Add ingredients to recipe: Add cheese to recipe": 28
+      },
+      {
+        "COOKING_COMMON: Blanch ingredients in boiling water": 28
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Stir or move around ingredients on a pan or pot": 28
+      },
+      {
+        "Prepare ingredients: Cut green bean": 27
+      },
+      {
+        "Prepare and cook eggs: Beat eggs to create a homogeneous mixture": 27
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients in pantry or shelf": 27
+      },
+      {
+        "Cook over the stovetop: Remove ingredients from a pan or pot and serve": 27
+      },
+      {
+        "MAKE_PUFFED_RICE: Stir or move around ingredients on a pan or pot": 27
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Add ingredients into a pan or pot": 27
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare bread or baked goods": 26
+      },
+      {
+        "Add ingredients to recipe: Add egg to recipe": 26
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with a mixer": 26
+      },
+      {
+        "Prepare and cook eggs: Pour the egg mixture to a pan": 26
+      },
+      {
+        "Cook in the oven: Remove ingredients into the oven": 26
+      },
+      {
+        "Cook rice: Serve the rice": 25
+      },
+      {
+        "Cook in the microwave: Remove ingredients from the microwave": 25
+      },
+      {
+        "Clean and organize kitchen: Wash dishes and utensils in dishwasher": 25
+      },
+      {
+        "Add ingredients to recipe: Add potato to recipe": 25
+      },
+      {
+        "Add ingredients to recipe: Add water into sauce or soup": 25
+      },
+      {
+        "MAKE_BREAD: Stir ingredients": 25
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add icing paste to the cooked dough": 25
+      },
+      {
+        "COOKING_COMMON: Put dough on kneading table": 24
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare rice dishes": 24
+      },
+      {
+        "Prepare ingredients: Cut yam": 24
+      },
+      {
+        "Prepare and cook eggs: Stir the egg mixture on a pan to create small curds": 24
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add vegetables and let it simmer for another 30 minutes": 24
+      },
+      {
+        "COOKING_COMMON: Check ingredients": 24
+      },
+      {
+        "MAKE_PANCAKE: Stir ingredients": 23
+      },
+      {
+        "PREPARE_NUT: Put the pieces into a bowl": 23
+      },
+      {
+        "Cook over the stovetop: Heat oil in a pan or pot": 23
+      },
+      {
+        "Cook with boiling water: Fill a pot or kettle with water": 23
+      },
+      {
+        "Prepare ingredients: Cut herbs": 22
+      },
+      {
+        "Cook with boiling water: Add hot boiling water to a container": 22
+      },
+      {
+        "MAKE_PUFFED_RICE: Mix ingredients": 22
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Add unspecified seasoning to recipe": 22
+      },
+      {
+        "COOKING_GENERAL: Add unspecified seasoning to recipe": 22
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add fillings into the dough": 22
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Arrange pastry shapes on a baking tray": 22
+      },
+      {
+        "Make dumplings: Seal the dumplings": 22
+      },
+      {
+        "MAKE_SALAD: Stir ingredients": 21
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Fry the chicken until it is golden brown": 21
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add sauce over the dough": 21
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Mix ingredients": 21
+      },
+      {
+        "COOKING_COMMON: Remove inredients from the blender": 21
+      },
+      {
+        "COOKING_COMMON: Fetch water into a pan": 20
+      },
+      {
+        "Add ingredients to recipe: Add processed meat to recipe": 20
+      },
+      {
+        "MAKE_NOODLE_SOUP: Stir ingredients": 20
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Remove the dough from a mixing bowl": 20
+      },
+      {
+        "COOKING_COMMON: Deep fry ingredients in oil": 19
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Boil ingredients in water": 19
+      },
+      {
+        "Prepare ingredients: Get ingredients": 19
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Boil ingredients in water": 18
+      },
+      {
+        "General kitchen activity: Harvest crops, fruits, or vegetables": 18
+      },
+      {
+        "Prepare ingredients: Cut bread": 18
+      },
+      {
+        "COOKING_COMMON: Fetch water into a bowl": 18
+      },
+      {
+        "Make recipe in blender: Add water to the blender": 18
+      },
+      {
+        "MAKE_PUFFED_RICE: Once the oil is hot, add a small handful of rice to the pot and stir it constantly with a wooden spoon or spatula": 18
+      },
+      {
+        "Prepare ingredients: Cut celery": 18
+      },
+      {
+        "MAKE_PASTRY: Add ingredients into a pan or pot": 18
+      },
+      {
+        "COOKING_COMMON: Adjust range hood power level": 17
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add chocolate chips and nuts to the dough": 17
+      },
+      {
+        "COOKING_COMMON: Simmer ingredients over low heat": 17
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Cook or prepare vegetables": 17
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare beans and lentils": 17
+      },
+      {
+        "MAKE_HAZELNUT_SPREAD: Blend the hazelnuts in a food processor until a paste forms": 17
+      },
+      {
+        "Prepare ingredients: Cut avocado": 17
+      },
+      {
+        "Add ingredients to recipe: Add mayonnaise to recipe": 17
+      },
+      {
+        "Add ingredients to recipe: Add chicken recipe": 17
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Stir ingredients": 17
+      },
+      {
+        "Cook in the microwave: Check and adjust the setting on the microwave": 17
+      },
+      {
+        "MAKE_FLATBREAD: Stir ingredients": 17
+      },
+      {
+        "MAKE_FRENCH_TOAST: Dip bread slices in the egg mixture, making sure to coat both sides well": 17
+      },
+      {
+        "COOKING_GENERAL: Saute in a pan": 17
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Roll out the dough on a floured surface": 17
+      },
+      {
+        "MAKE_BAKED_DISH: Add ingredients into a pan or pot": 17
+      },
+      {
+        "Prepare ingredients: Cut ginger": 16
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add unspecified seasoning to recipe": 16
+      },
+      {
+        "General kitchen activity: Interact with animals": 16
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Stir ingredients": 16
+      },
+      {
+        "COOKING_COMMON: Squeeze ingredients to extract excess water or juice": 16
+      },
+      {
+        "Cook in the microwave: Put ingredients into the microwave": 16
+      },
+      {
+        "Prepare ingredients: Cut zucchini": 15
+      },
+      {
+        "General kitchen activity: Turn on the lights": 15
+      },
+      {
+        "Add ingredients to recipe: Add broccoli to recipe": 15
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Turn the sausage over and cook for another 10 minutes": 15
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Stir ingredients": 15
+      },
+      {
+        "Make bread-based dishes: Cook bread slices coated with eggs in a pan": 15
+      },
+      {
+        "Make dumplings: Flatten each piece with a rolling pin to create a round wrapper": 15
+      },
+      {
+        "Cook on the grill: Cook ingredients on the grill": 14
+      },
+      {
+        "MAKE_BURRITO: Make burrito fillings": 14
+      },
+      {
+        "COOKING_GENERAL: Cook or prepare vegetables": 14
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Saute in a pan": 14
+      },
+      {
+        "Add ingredients to recipe: Add cucumber to recipe": 14
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients into refrigerator or freezer": 14
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Saute in a pan": 14
+      },
+      {
+        "COOKING_GENERAL: Blend ingredients": 14
+      },
+      {
+        "Make dumplings: Add fillings to the dumplings": 14
+      },
+      {
+        "MAKE_YOGURT_BOWL: Add mix-ins to the mug such as fruits, nuts, granola, seeds, honey, and spices": 14
+      },
+      {
+        "Add ingredients to recipe: Add beans to recipe": 13
+      },
+      {
+        "Cook rice: Cook rice in rice cooker": 13
+      },
+      {
+        "Cook over the stovetop: Remove a pan or pot on the stovetop": 13
+      },
+      {
+        "MAKE_MILKTEA: Saute in a pan": 13
+      },
+      {
+        "MAKE_SAMOSA: Roll out the dough on a floured surface": 13
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Add ingredients into a pan or pot": 13
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Stir or move around ingredients on a pan or pot": 13
+      },
+      {
+        "MAKE_PASTRY: Stir or move around ingredients on a pan or pot": 13
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Stir or move around ingredients on a pan or pot": 13
+      },
+      {
+        "MAKE_GNOCCHI: Roll out the dough on a floured surface": 13
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Check dough texture": 12
+      },
+      {
+        "Cook in the oven: Reposition baked goods in oven": 12
+      },
+      {
+        "Cook rice: Wash and drain rice": 12
+      },
+      {
+        "Serve food or drinks: Get plates or bowls to serve food": 12
+      },
+      {
+        "COOKING_COMMON: Clean dishes, utensils, and kitchen surfaces": 12
+      },
+      {
+        "Add ingredients to recipe: Add grains to recipe": 12
+      },
+      {
+        "MAKE_PASTA: Cook for 10 minutes": 12
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Saute in a pan": 12
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Mix ingredients": 12
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: OTHER": 12
+      },
+      {
+        "Prepare ingredients: Cut cooked eggs": 12
+      },
+      {
+        "COOKING_COMMON: Cover kitchen items or ingredients with kitchen wrap": 12
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Cook or prepare vegetables": 12
+      },
+      {
+        "Add ingredients to recipe: Add tomato paste or tomato sauce to recipe": 12
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 12
+      },
+      {
+        "MAKE_PUFFED_RICE: Add ingredients into a pan or pot": 12
+      },
+      {
+        "MAKE_PASTRY: Pour in the ice water and mix it in with your hands until it forms a dough": 12
+      },
+      {
+        "MAKE_NOODLE_SOUP: Stir or move around ingredients on a pan or pot": 12
+      },
+      {
+        "MAKE_PANCAKE: Mix ingredients": 11
+      },
+      {
+        "Prepare and cook eggs: Crack eggs into a pan": 11
+      },
+      {
+        "Cook with boiling water: Steam ingredients over boiling water": 11
+      },
+      {
+        "MAKE_TIRAMISU: Stir ingredients": 11
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Add unspecified seasoning to recipe": 11
+      },
+      {
+        "MAKE_SALAD: Mix ingredients": 11
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Mix together the ingredients": 11
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Mix ingredients": 11
+      },
+      {
+        "COOKING_COMMON: Coat ingredients in a dry mixture": 11
+      },
+      {
+        "MAKE_DUMPLINGS: Mix ingredients": 11
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Stir ingredients": 11
+      },
+      {
+        "MAKE_STEW_OR_SOUP: OTHER": 11
+      },
+      {
+        "MAKE_NOODLE_SOUP: Mix ingredients": 11
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Flip or turn ingredients on a pan or pot": 11
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Flip or turn ingredients on a pan or pot": 11
+      },
+      {
+        "MAKE_OMELET: Stir or move around ingredients on a pan or pot": 11
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Saute in a pan": 10
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Cook or prepare vegetables": 10
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make pizza dough": 10
+      },
+      {
+        "Cook on the wood stove: Start the fire in the wood stove": 10
+      },
+      {
+        "MAKE_TEA: Make tea from start to end": 10
+      },
+      {
+        "Make drinks: Brew tea in hot water": 10
+      },
+      {
+        "COOKING_COMMON: Braise ingredients in a pot with a small amount of liquid": 10
+      },
+      {
+        "Make dumplings: Pan fry the dumplings": 10
+      },
+      {
+        "Add ingredients to recipe: Add vinegar to recipe": 10
+      },
+      {
+        "MAKE_BAKED_DISH: Blend ingredients": 10
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Add ingredients into a pan or pot": 10
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add seasoning to the dough or batter": 10
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: OTHER": 10
+      },
+      {
+        "Add ingredients to recipe: Add noodle to recipe": 9
+      },
+      {
+        "Prepare ingredients: Cut spinach": 9
+      },
+      {
+        "Add ingredients to recipe: Add spring onion to recipe": 9
+      },
+      {
+        "COOKING_GENERAL: Boil ingredients in water": 9
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare pasta sauce": 9
+      },
+      {
+        "COOKING_GENERAL: Grate ingredients to shred or finely chop": 9
+      },
+      {
+        "COOKING_COMMON: Put foil or baking parchment paper on an oven tray": 9
+      },
+      {
+        "MAKE_NOODLE_SOUP: Boil ingredients in water": 9
+      },
+      {
+        "WORKOUT: Stretch or do yoga on a mat": 9
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Grate ingredients to shred or finely chop": 9
+      },
+      {
+        "MAKE_YOGURT_BOWL: Mix ingredients": 9
+      },
+      {
+        "Make smoothie: Add fruits and vegetables to a blender and blend until smooth": 9
+      },
+      {
+        "GENERAL_COMMON:OTHER": 9
+      },
+      {
+        "MAKE_GNOCCHI: Grate ingredients to shred or finely chop": 9
+      },
+      {
+        "MAKE_FLATBREAD: Stir or move around ingredients on a pan or pot": 9
+      },
+      {
+        "MAKE_PICKLED_DISH: Mix ingredients": 8
+      },
+      {
+        "MAKE_PANCAKE: OTHER": 8
+      },
+      {
+        "Make bread-based dishes: Spread toppings on toast": 8
+      },
+      {
+        "Add ingredients to recipe: Add eggplant to recipe": 8
+      },
+      {
+        "MAKE_HAZELNUT_SPREAD: OTHER": 8
+      },
+      {
+        "COOKING_COMMON: Fetch water into a cup": 8
+      },
+      {
+        "Cook with boiling water: Wait until ingredients are fully cooked in boiling water": 8
+      },
+      {
+        "Cook over the stovetop: Preheat a pan on the stovetop and add oil or butter": 8
+      },
+      {
+        "Add ingredients to recipe: Add seafood recipe": 8
+      },
+      {
+        "MAKE_PICKLED_DISH: Add unspecified seasoning to recipe": 8
+      },
+      {
+        "MAKE_YOGURT_BOWL: Add yogurt to the mug": 8
+      },
+      {
+        "MAKE_CUTLET_DISH: Add ingredients into a pan or pot": 8
+      },
+      {
+        "COOKING_COMMON: Grind ingredients": 8
+      },
+      {
+        "COOKING_COMMON: Turn off the blender": 8
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Stir or move around ingredients on a pan or pot": 8
+      },
+      {
+        "MAKE_BAKED_DISH: Stir or move around ingredients on a pan or pot": 8
+      },
+      {
+        "MAKE_NOODLE_SOUP: OTHER": 8
+      },
+      {
+        "MAKE_GRILLED_DISH: OTHER": 7
+      },
+      {
+        "Add ingredients to recipe: Add ketchup to recipe": 7
+      },
+      {
+        "Cook on the grill: Preheat the grill": 7
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Grate ingredients to shred or finely chop": 7
+      },
+      {
+        "COOKING_COMMON: Remove seed from ingredients": 7
+      },
+      {
+        "COOKING_COMMON: Check the temperature of recipe": 7
+      },
+      {
+        "Operate cooking equipment: Turn on the electric kettle": 7
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Boil ingredients in water": 7
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Grate ingredients to shred or finely chop": 7
+      },
+      {
+        "MAKE_PANCAKE: Blend ingredients": 7
+      },
+      {
+        "MAKE_MILKTEA: Stir ingredients": 7
+      },
+      {
+        "MAKE_PUFFED_RICE: Boil ingredients in water": 7
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Stir ingredients": 7
+      },
+      {
+        "Add ingredients to recipe: Add carrots to recipe": 7
+      },
+      {
+        "Prepare and cook eggs: Boil eggs in boiling water": 7
+      },
+      {
+        "Add ingredients to recipe: Add mustard to recipe": 7
+      },
+      {
+        "MAKE_FRENCH_TOAST: OTHER": 7
+      },
+      {
+        "MAKE_GNOCCHI: Boil ingredients in water": 7
+      },
+      {
+        "MAKE_SANDWICH: OTHER": 7
+      },
+      {
+        "MAKE_PANCAKE: Add ingredients into a pan or pot": 7
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 7
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Add ingredients into a pan or pot": 7
+      },
+      {
+        "COOKING_COMMON: Whip ingredients using a whisk or mixer": 7
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Stir or move around ingredients on a pan or pot": 7
+      },
+      {
+        "MAKE_ZARU_SOBA: Stir or move around ingredients on a pan or pot": 7
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Stir ingredients": 7
+      },
+      {
+        "MAKE_HOTPOT: Add ingredients into a pan or pot": 7
+      },
+      {
+        "COOKING_COMMON: Turn on the blender": 7
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Stir or move around ingredients on a pan or pot": 7
+      },
+      {
+        "MAKE_TACO: Add ingredients into a pan or pot": 7
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Add ingredients into a pan or pot": 7
+      },
+      {
+        "PREPARE_MANGO: Remove the pit from the mango": 7
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Grate ingredients to shred or finely chop": 6
+      },
+      {
+        "General kitchen activity: Write a note": 6
+      },
+      {
+        "MAKE_SAMOSA: Mix ingredients": 6
+      },
+      {
+        "Clean and organize kitchen: Wash kitchen towel in kitchen sink": 6
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Mix together": 6
+      },
+      {
+        "COOKING_COMMON: Cook with or prepare milk": 6
+      },
+      {
+        "Add ingredients to recipe: Add coffee to brew": 6
+      },
+      {
+        "Prepare ingredients: Cut okra": 6
+      },
+      {
+        "COOKING_COMMON: Open the lid of a pot or pan": 6
+      },
+      {
+        "Add ingredients to recipe: Add citrus ingredients to recipe": 6
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare noodle dishes": 6
+      },
+      {
+        "GRIND_SPICE: Remove the ground spice from the spice grinder": 6
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Saute in a pan": 6
+      },
+      {
+        "COOKING_COMMON: Wear kitchen gloves": 6
+      },
+      {
+        "MAKE_SANDWICH: Add unspecified seasoning to recipe": 6
+      },
+      {
+        "Prepare and cook eggs: Add milk or broth to the egg mixture": 6
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Mix ingredients": 6
+      },
+      {
+        "MAKE_YOGURT_BOWL: Stir ingredients": 6
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Add ingredients into a pan or pot": 6
+      },
+      {
+        "MAKE_PASTRY: Flip or turn ingredients on a pan or pot": 6
+      },
+      {
+        "MAKE_DUMPLINGS: Add ingredients into a pan or pot": 6
+      },
+      {
+        "MAKE_DUMPLINGS: Stir or move around ingredients on a pan or pot": 6
+      },
+      {
+        "MAKE_OMELET: Add ingredients into a pan or pot": 6
+      },
+      {
+        "MAKE_RICE_OMELET: Stir or move around ingredients on a pan or pot": 6
+      },
+      {
+        "COOKING_COMMON: Score the dough for bake": 5
+      },
+      {
+        "MAKE_RICE: Grate ingredients to shred or finely chop": 5
+      },
+      {
+        "General kitchen activity: Open window": 5
+      },
+      {
+        "MAKE_RICE_BOWL: Stir ingredients": 5
+      },
+      {
+        "MAKE_PIZZA: OTHER": 5
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Add unspecified seasoning to recipe": 5
+      },
+      {
+        "General kitchen activity: Adjust camera": 5
+      },
+      {
+        "Add ingredients to recipe: Add bread crumb to recipe": 5
+      },
+      {
+        "MAKE_DUMPLINGS: Stir ingredients": 5
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Blend ingredients": 5
+      },
+      {
+        "MAKE_DRINKS_GENERAL: Make drinks from start to end": 5
+      },
+      {
+        "MAKE_MACARONI_SALAD: Mix ingredients": 5
+      },
+      {
+        "MAKE_CUTLET_DISH: Stir ingredients": 5
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Stir ingredients": 5
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare sandwiches": 5
+      },
+      {
+        "MAKE_RICE_BOWL: Boil ingredients in water": 5
+      },
+      {
+        "MAKE_GNOCCHI: Saute in a pan": 5
+      },
+      {
+        "Prepare ingredients: Cut kitchen wrap or foil": 5
+      },
+      {
+        "COOKING_COMMON: Collect and arrange ingredients on countertop": 5
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Put the meat in a pot and add water": 5
+      },
+      {
+        "MAKE_DUMPLINGS: Blend ingredients": 5
+      },
+      {
+        "Cook on the grill: Check and adjust the heat of grill": 5
+      },
+      {
+        "MAKE_PANCAKE: Stir or move around ingredients on a pan or pot": 5
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: OTHER": 5
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Add ingredients into a pan or pot": 5
+      },
+      {
+        "COOKING_COMMON: Open the blender top lid": 5
+      },
+      {
+        "MAKE_BREAD: Blend ingredients": 5
+      },
+      {
+        "Add ingredients to recipe: Add butternut squash to recipe": 5
+      },
+      {
+        "MAKE_STEAK_DISH: Add ingredients into a pan or pot": 5
+      },
+      {
+        "MAKE_BAKED_DISH: Mix ingredients": 5
+      },
+      {
+        "Operate cooking equipment: Turn off the range hood": 4
+      },
+      {
+        "MAKE_PASTA: Grate ingredients to shred or finely chop": 4
+      },
+      {
+        "COOKING_COMMON: Soak sliced onions in water": 4
+      },
+      {
+        "MAKE_STEAK_DISH: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Add unspecified seasoning to recipe": 4
+      },
+      {
+        "MAKE_PASTA: Boil ingredients in water": 4
+      },
+      {
+        "COOKING_COMMON: Get utensils": 4
+      },
+      {
+        "MAKE_SALAD: Boil ingredients in water": 4
+      },
+      {
+        "MAKE_COFFEE: Make coffee from start to end": 4
+      },
+      {
+        "MAKE_PANCAKE: Boil ingredients in water": 4
+      },
+      {
+        "Serve food or drinks: Serve hotpot": 4
+      },
+      {
+        "MAKE_MILKTEA: Blend ingredients": 4
+      },
+      {
+        "Add ingredients to recipe: Add zucchini to recipe": 4
+      },
+      {
+        "General kitchen activity: Use smartwatch": 4
+      },
+      {
+        "MAKE_SALAD: Add unspecified seasoning to recipe": 4
+      },
+      {
+        "GRIND_SPICE: Place the spice in a spice grinder": 4
+      },
+      {
+        "Cook over the stovetop: Remove excess oil from a pan": 4
+      },
+      {
+        "MAKE_PANCAKE: Grate ingredients to shred or finely chop": 4
+      },
+      {
+        "MAKE_RICE_OMELET: Mix ingredients": 4
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Mix ingredients": 4
+      },
+      {
+        "MAKE_PUFFED_RICE: OTHER": 4
+      },
+      {
+        "Cook in the oven: Turn off the oven": 4
+      },
+      {
+        "MAKE_HAZELNUT_SPREAD: Stir ingredients": 4
+      },
+      {
+        "MAKE_STEAK_DISH: Flip or turn ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_PIZZA: Blend ingredients": 4
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Stir ingredients": 4
+      },
+      {
+        "COOKING_COMMON: Adjust settings on the blender": 4
+      },
+      {
+        "MAKE_PUFFED_RICE: Blend ingredients": 4
+      },
+      {
+        "MAKE_SANDWICH: Mix ingredients": 4
+      },
+      {
+        "MAKE_PANCAKE: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Mix ingredients": 3
+      },
+      {
+        "Cook rice: Stir the cooked rice": 3
+      },
+      {
+        "MAKE_BREAD: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "MAKE_TIRAMISU: OTHER": 3
+      },
+      {
+        "PREPARE_NUT: OTHER": 3
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Put the sausage in the pan, cover it with a lid and cook on medium heat for 10 minutes": 3
+      },
+      {
+        "Cook with boiling water: Add seasoning to boiling water": 3
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Mix ingredients": 3
+      },
+      {
+        "MAKE_PASTA: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "PREPARE_POTATO: Drain the water and place the potato pieces on a plate": 3
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: OTHER": 3
+      },
+      {
+        "MAKE_LASAGNA: Layer 2 uncooked lasagna noodles, 1/3 of the ricotta cheese mixture, and 1/4 of the mozzarella cheese": 3
+      },
+      {
+        "MAKE_BURRITO: Spread the cheese evenly over the tortilla": 3
+      },
+      {
+        "MAKE_PASTA: Cook or prepare vegetables": 3
+      },
+      {
+        "Make drinks: Add milk, heavy cream, sugar, or honey to the drink": 3
+      },
+      {
+        "MAKE_MILKTEA: Boil ingredients in water": 3
+      },
+      {
+        "MAKE_TACO: Stir ingredients": 3
+      },
+      {
+        "General kitchen activity: Wear apron": 3
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Blend ingredients": 3
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Mix ingredients": 3
+      },
+      {
+        "MAKE_FLATBREAD: Blend ingredients": 3
+      },
+      {
+        "MAKE_NOODLE_SOUP: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "MAKE_TACO: Blend ingredients": 3
+      },
+      {
+        "Add ingredients to recipe: Add ice to recipe": 3
+      },
+      {
+        "MAKE_BAKED_DISH: Stir ingredients": 3
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: OTHER": 3
+      },
+      {
+        "MAKE_STEAK_DISH: Blend ingredients": 3
+      },
+      {
+        "MAKE_CUTLET_DISH: Mix ingredients": 3
+      },
+      {
+        "Add ingredients to recipe: Add broth or soup to recipe": 3
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Cook or prepare vegetables": 3
+      },
+      {
+        "MAKE_OMELET: Cook or prepare vegetables": 3
+      },
+      {
+        "MAKE_BAKED_DISH: Grate ingredients to shred or finely chop": 3
+      },
+      {
+        "MAKE_PANCAKE: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "MAKE_FLATBREAD: Cook or prepare vegetables": 3
+      },
+      {
+        "Cook with boiling water: Cook dumplings in boiling water": 3
+      },
+      {
+        "MAKE_PICKLED_DISH: Stir ingredients": 3
+      },
+      {
+        "MAKE_PICKLED_DISH: then add the ingredients you wish to pickle": 3
+      },
+      {
+        "MAKE_DONUT: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "MAKE_RICE_BOWL: Add ingredients into a pan or pot": 3
+      },
+      {
+        "MAKE_PIZZA: Add wet ingredients to the dough or batter": 3
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Add ingredients into a pan or pot": 3
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "PREPARE_MEAT: OTHER": 3
+      },
+      {
+        "MAKE_LASAGNA: Stir ingredients": 3
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Add ingredients into a pan or pot": 3
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "Make bread-based dishes: Make toppings for toast": 3
+      },
+      {
+        "MAKE_PASTRY: Bake the pastry in the oven until golden brown": 3
+      },
+      {
+        "MAKE_OATMEAL: Cook for 5 minutes": 3
+      },
+      {
+        "MAKE_NOODLE_SOUP: Add ingredients into a pan or pot": 3
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: OTHER": 3
+      },
+      {
+        "COOKING_COMMON: Fold whipped cream or eggs into a thicker mixture without deflating it": 3
+      },
+      {
+        "MAKE_GNOCCHI: Mix ingredients": 3
+      },
+      {
+        "MAKE_RICE_OMELET: Add ingredients into a pan or pot": 3
+      },
+      {
+        "MAKE_DUMPLINGS: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Cook or prepare vegetables": 2
+      },
+      {
+        "MAKE_TIRAMISU: Whisk until the mixture is smooth and creamy": 2
+      },
+      {
+        "MAKE_TIRAMISU: Fold the cream mixture into the custard": 2
+      },
+      {
+        "PREPARE_NUT: Stir ingredients": 2
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "MAKE_HAZELNUT_SPREAD: Pour into a jar and store in the refrigerator": 2
+      },
+      {
+        "STUDY(READ_WRITE): Read the textbook and take notes": 2
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Boil ingredients in water": 2
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Stir ingredients": 2
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Blend ingredients": 2
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Prepare the ingredients and cookware": 2
+      },
+      {
+        "MAKE_CAKE: In another bowl, beat the butter and sugar until light and fluffy": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "General kitchen activity: Turn off the lights": 2
+      },
+      {
+        "MAKE_PASTRY: Saute in a pan": 2
+      },
+      {
+        "Cook with boiling water: Cook vegetables in boiling water": 2
+      },
+      {
+        "MAKE_BURRITO: Cook the burrito on a skillet": 2
+      },
+      {
+        "MAKE_BURRITO: Spread the meat evenly over the tortilla": 2
+      },
+      {
+        "MAKE_DUMPLINGS: Cook or prepare vegetables": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Blend ingredients": 2
+      },
+      {
+        "MAKE_PUFFED_RICE: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "MAKE_TACO: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "GENERAL_COMMON: Play music": 2
+      },
+      {
+        "Operate cooking equipment: Turn off the electric kettle": 2
+      },
+      {
+        "MAKE_TACO: OTHER": 2
+      },
+      {
+        "Cook with boiling water: Blanch ingredients in boiling water": 2
+      },
+      {
+        "MAKE_MACARONI_SALAD: Stir ingredients": 2
+      },
+      {
+        "MAKE_MACARONI_SALAD: Saute in a pan": 2
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: OTHER": 2
+      },
+      {
+        "Prepare and cook eggs: Remove egg shell": 2
+      },
+      {
+        "Add ingredients to recipe: Add tofu recipe": 2
+      },
+      {
+        "Cook in the microwave: Turn off microwave": 2
+      },
+      {
+        "MAKE_OMELET: Stir ingredients": 2
+      },
+      {
+        "MAKE_BAKED_DISH: Cook or prepare vegetables": 2
+      },
+      {
+        "COOKING_COMMON: Prepare food for pets": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Saute in a pan": 2
+      },
+      {
+        "MAKE_PANCAKE: Saute in a pan": 2
+      },
+      {
+        "MAKE_SANDWICH: Stir ingredients": 2
+      },
+      {
+        "SHOPPING_GENERAL: Put them away in their proper places": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Add ingredients into a pan or pot": 2
+      },
+      {
+        "MAKE_RICE: Stir ingredients": 2
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Mix ingredients": 2
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Fold in butter to the dough": 2
+      },
+      {
+        "MAKE_HAZELNUT_SPREAD: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "Prepare and cook eggs: Brush beaten eggs onto pastries or breads to create golden brown crust": 2
+      },
+      {
+        "COOKING_COMMON: Remove spoiled parts of vegetables": 2
+      },
+      {
+        "MAKE_HOTPOT: OTHER": 2
+      },
+      {
+        "MAKE_BREAD: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_TACO: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_SALAD: Add ingredients into a pan or pot": 2
+      },
+      {
+        "MAKE_OATMEAL: Add oats and salt": 2
+      },
+      {
+        "Operate cooking equipment: Check and adjust the heat on the electric kettle": 2
+      },
+      {
+        "MAKE_MACARONI_SALAD: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "GRIND_SPICE: Put papers on the ground to prevent spills while grounding spice": 2
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_STEAK_DISH: OTHER": 2
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_SANDWICH: Add ingredients into a pan or pot": 2
+      },
+      {
+        "MAKE_SANDWICH: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_PICKLED_DISH: when you like the taste, put it in the refrigerator to stop the pickling process": 2
+      },
+      {
+        "MAKE_FRIED_CHICKEN: OTHER": 2
+      },
+      {
+        "MAKE_GNOCCHI: Add ingredients into a pan or pot": 2
+      },
+      {
+        "MAKE_GNOCCHI: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_RICE_OMELET: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_DUMPLINGS: Roll out the dough on a floured surface": 2
+      },
+      {
+        "MAKE_DUMPLINGS: Roll out the dough into a long, thin log and cut it into small pieces": 2
+      },
+      {
+        "MAKE_YOGURT_BOWL: OTHER": 2
+      },
+      {
+        "MAKE_SANDWICH: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_PICKLED_DISH: OTHER": 1
+      },
+      {
+        "MAKE_PICKLED_DISH: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_PICKLED_DISH: make the brine and put it in the jar you will use to pickle in": 1
+      },
+      {
+        "MAKE_RICE: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_CUTLET_DISH: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_DONUT: Roll out the dough on a floured surface": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Mix ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "Prepare and cook eggs: Separate egg yolk and egg white into separate parts": 1
+      },
+      {
+        "MAKE_TIRAMISU: Combine the mascarpone cheese and heavy cream in a separate bowl": 1
+      },
+      {
+        "MAKE_PUFFED_RICE: Stir ingredients": 1
+      },
+      {
+        "MAKE_STEAK_DISH: Stir ingredients": 1
+      },
+      {
+        "MAKE_RICE_BOWL: Mix ingredients": 1
+      },
+      {
+        "MAKE_SAMOSA: Fold the square over the filling to make a triangle shape": 1
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: OTHER": 1
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Stir ingredients": 1
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Blend ingredients": 1
+      },
+      {
+        "MAKE_STEAK_DISH: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_SALAD: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_CAKE: Mix ingredients": 1
+      },
+      {
+        "COOKING_COMMON: Slice ingredients into thin even pieces": 1
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_SMOOTHIE: Make smoothie from start to end": 1
+      },
+      {
+        "MAKE_HOTPOT: Stir ingredients": 1
+      },
+      {
+        "MAKE_SALAD: Saute in a pan": 1
+      },
+      {
+        "MAKE_HOTPOT: Add some vegetables to the pot": 1
+      },
+      {
+        "MAKE_BURRITO: Roll up the tortilla into a burrito": 1
+      },
+      {
+        "PREPARE_MANGO: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_PUFFED_RICE: Put sand into a large pot": 1
+      },
+      {
+        "MAKE_DUMPLINGS: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_TACO: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_PASTRY: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Put bread on a pan over medium heat": 1
+      },
+      {
+        "MAKE_FRENCH_TOAST: Blend ingredients": 1
+      },
+      {
+        "MAKE_FRENCH_TOAST: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_FRENCH_TOAST: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_MACARONI_SALAD: Add the cooled macaroni and stir until everything is evenly coated": 1
+      },
+      {
+        "MAKE_CUTLET_DISH: Fry them in oil until they are golden brown": 1
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_PANCAKE: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_OMELET: Mix ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Blend ingredients": 1
+      },
+      {
+        "MAKE_RICE_BOWL: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_GNOCCHI: Stir ingredients": 1
+      },
+      {
+        "MAKE_BAKED_DISH: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_FLATBREAD: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_FLATBREAD: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_RICE_OMELET: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_SALAD: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_PICKLED_DISH: put the lid on and put it in a dark, cool place for at least 24 hours": 1
+      },
+      {
+        "MAKE_CUTLET_DISH: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_CUTLET_DISH: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "Prepare and cook eggs: Poach eggs in simmering water or broth until the egg white is set": 1
+      },
+      {
+        "COOKING_COMMON: Place the jar on the blender": 1
+      },
+      {
+        "MAKE_HAZELNUT_SPREAD: Add the melted chocolate and blend until smooth": 1
+      },
+      {
+        "PREPARE_MANGO: Stir ingredients": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_ZARU_SOBA: Drain and put into a large bowl": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_CAKE: OTHER": 1
+      },
+      {
+        "MAKE_PASTA: OTHER": 1
+      },
+      {
+        "PREPARE_COCONUT: OTHER": 1
+      },
+      {
+        "MAKE_EDAMAME: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_EDAMAME: Remove edamame from hot water and place into ice cold water for 1 minute": 1
+      },
+      {
+        "MAKE_PASTA: Blend ingredients": 1
+      },
+      {
+        "MAKE_LASAGNA: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_BURRITO: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_BURRITO: Lay out the tortilla on a flat surface": 1
+      },
+      {
+        "MAKE_BURRITO: OTHER": 1
+      },
+      {
+        "MAKE_PUFFED_RICE: Add rice to a pot filled with sand": 1
+      },
+      {
+        "MAKE_SALAD: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Add flour, salt and pepper to a large bowl": 1
+      },
+      {
+        "MAKE_FRIED_CHICKEN: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_STEAK_DISH: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_OATMEAL: Stir ingredients": 1
+      },
+      {
+        "MAKE_BAKED_DISH: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "COOKING_COMMON: Baste melted butter or pan joices over food": 1
+      },
+      {
+        "GRIND_SPICE: OTHER": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: OTHER": 1
+      },
+      {
+        "Cook with boiling water: Simmer ingredients over low heat": 1
+      },
+      {
+        "Prepare ingredients: Cut seafood": 1
+      },
+      {
+        "MAKE_SALAD: OTHER": 1
+      },
+      {
+        "MAKE_SANDWICH: Put the two slices together to make a sandwich": 1
+      },
+      {
+        "PREPARE_MANGO: OTHER": 1
+      },
+      {
+        "MAKE_RICE_OMELET: Stir ingredients": 1
+      },
+      {
+        "MAKE_DUMPLINGS: Knead the dough on a floured surface until it becomes smooth and elastic": 1
+      },
+      {
+        "MAKE_YOGURT_BOWL: Set a glass mug on a counter or table": 1
+      },
+      {
+        "MAKE_DUMPLINGS: OTHER": 1
+      },
+      {
+        "COOKING_COMMON: Remove ingredients from the grill": 1
+      }
+    ],
+    "Val": [
+      {
+        "COOKING_COMMON: OTHER": 338
+      },
+      {
+        "Clean and organize kitchen: Wash dishes and utensils in kitchen sink": 317
+      },
+      {
+        "Cook over the stovetop: Stir fry ingredients in a wok or large pan": 266
+      },
+      {
+        "Clean and organize kitchen: Dispose an item in the trash bin": 193
+      },
+      {
+        "Clean and organize kitchen: Wash hands": 172
+      },
+      {
+        "Cook over the stovetop: Check and adjust the heat on the stovetop": 172
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Roll out the dough on a floured surface": 164
+      },
+      {
+        "Prepare ingredients: Wash ingredients": 152
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange cooking tools or utensils": 147
+      },
+      {
+        "Serve food or drinks: Serve food on a plate": 130
+      },
+      {
+        "General kitchen activity: Use phone": 122
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Evenly cook flatbread on both sides in a skillet over medium heat": 118
+      },
+      {
+        "Cook over the stovetop: Add oil or butter on a pan": 117
+      },
+      {
+        "Cook on the wood stove: Check and adjust the heat on the wood stove": 117
+      },
+      {
+        "Clean and organize kitchen: Clean and clear kitchen surfaces": 116
+      },
+      {
+        "Clean and organize kitchen: Put ingredients into refrigerator or freezer": 114
+      },
+      {
+        "Prepare ingredients: Peel the skin of ingredients": 112
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Arrange the dough on a baking tray": 109
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with hands or a mixer": 106
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add dry ingredients to the dough or batter": 102
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make dough or batter by mixing flour, water, oil, and other ingredients": 99
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Pipe the batter into desired shapes": 91
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients on kitchen countertop for cooking": 88
+      },
+      {
+        "GENERAL_COMMON: OTHER": 88
+      },
+      {
+        "General kitchen activity: Strain or drain liquids from ingredients": 87
+      },
+      {
+        "Add ingredients to recipe: Add spices to recipe": 81
+      },
+      {
+        "Clean and organize kitchen: Wipe hands": 80
+      },
+      {
+        "Prepare ingredients: Cut onion": 75
+      },
+      {
+        "Serve food or drinks: Eat and drink": 71
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Cut the dough into desired shapes": 71
+      },
+      {
+        "COOKING_GENERAL: Stir or move around ingredients on a pan or pot": 70
+      },
+      {
+        "Serve food or drinks: Serve food": 69
+      },
+      {
+        "General kitchen activity: Unpack or unwrap ingredients": 69
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add batter onto a skillet to cook": 62
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Press down the dough to flatten it": 62
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add fillings into the dough": 62
+      },
+      {
+        "Cook in the oven: Bake ingredients in oven": 61
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Shape the dough into balls": 61
+      },
+      {
+        "Prepare ingredients: Cut other vegetables": 59
+      },
+      {
+        "Add ingredients to recipe: Add salt to recipe": 58
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Flip the bread to cook the other side": 58
+      },
+      {
+        "MAKE_PUFFED_RICE: Add rice to a pot filled with sand": 58
+      },
+      {
+        "Add ingredients to recipe: Add sauce to recipe": 57
+      },
+      {
+        "MAKE_PUFFED_RICE: Stir rice over heat until puff": 57
+      },
+      {
+        "Cook over the stovetop: Preheat a pan on the stovetop": 56
+      },
+      {
+        "Cook with boiling water: Boil water in a pot or kettle": 56
+      },
+      {
+        "Prepare ingredients: Cut potato": 56
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Dip the fried dough in syrup": 55
+      },
+      {
+        "Clean and organize kitchen: Get ingredients from refrigerator or freezer": 54
+      },
+      {
+        "Clean and organize kitchen: Wipe dishes and utensils with clothes": 53
+      },
+      {
+        "Add ingredients to recipe: Add other seasoning to recipe": 53
+      },
+      {
+        "COOKING_GENERAL: Add ingredients into a pan or pot": 51
+      },
+      {
+        "Prepare ingredients: Measure ingredients": 50
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add wet ingredients to the dough or batter": 50
+      },
+      {
+        "MAKE_PANCAKE: Flip the pancakes and cook until golden brown, about 1 minute": 47
+      },
+      {
+        "Add ingredients to recipe: Add vegetables to recipe": 46
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir soup": 45
+      },
+      {
+        "COOKING_COMMON: Fetch water into a container": 44
+      },
+      {
+        "Clean and organize kitchen: Get ingredients from pantry or shelf": 44
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir or move around ingredients on a pan or pot": 44
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Transfer cooked flatbread to a plate or a bowl": 44
+      },
+      {
+        "MAKE_PASTA: Stir ingredients": 43
+      },
+      {
+        "General kitchen activity: Taste ingredients or recipe": 42
+      },
+      {
+        "COOKING_COMMON: Put dough on kneading table": 42
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make holes in the fried dough": 41
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with hands": 40
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir ingredients": 39
+      },
+      {
+        "MAKE_FLATBREAD: OTHER": 39
+      },
+      {
+        "COOKING_GENERAL: Mix ingredients": 36
+      },
+      {
+        "MAKE_SALAD: Put all the ingredients into a bowl and mix them together": 36
+      },
+      {
+        "MAKE_BURRITO: Cook the burrito on a skillet": 36
+      },
+      {
+        "COOKING_COMMON: Return ingredients to pantry or shelf": 35
+      },
+      {
+        "General kitchen activity: Cover kitchen items or ingredients with a lid": 34
+      },
+      {
+        "Add ingredients to recipe: Add oil or butter to recipe": 34
+      },
+      {
+        "Clean and organize kitchen: Clean up the kitchen area": 34
+      },
+      {
+        "Add ingredients to recipe: Add unspecified ingredient to recipe": 33
+      },
+      {
+        "Serve food or drinks: Serve food on in a bowl": 32
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add ingredients into a pan or pot": 32
+      },
+      {
+        "Prepare ingredients: Cut other ingredients": 31
+      },
+      {
+        "Prepare ingredients: Cut pepper": 30
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Stir ingredients": 29
+      },
+      {
+        "General kitchen activity: Interact with animals": 29
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Proof dough to rise": 29
+      },
+      {
+        "Add ingredients to recipe: Add meat recipe": 29
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Add ingredients into a pan or pot": 29
+      },
+      {
+        "MAKE_PASTA: Add ingredients into a pan or pot": 29
+      },
+      {
+        "COOKING_COMMON: Blend ingredients in the blender": 29
+      },
+      {
+        "Cook over the stovetop: Turn on the stovetop": 27
+      },
+      {
+        "Add ingredients to recipe: Add soy sauce to recipe": 27
+      },
+      {
+        "Prepare ingredients: Cut meat or seafood": 27
+      },
+      {
+        "COOKING_COMMON: Cover the blender jar with lid": 27
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Mix ingredients": 26
+      },
+      {
+        "Cook with boiling water: Cook noodles in boiling water": 26
+      },
+      {
+        "COOKING_COMMON: Whisk ingredients": 25
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sprinkle flour onto the cooking surface": 25
+      },
+      {
+        "Clean and organize kitchen: Organize and store food and ingredients": 25
+      },
+      {
+        "Cook over the stovetop: Put a pan or pot on the stovetop": 25
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Fill a piping bag with the batter": 25
+      },
+      {
+        "COOKING_GENERAL: Flip or turn ingredients on a pan or pot": 25
+      },
+      {
+        "Prepare ingredients: Get ingredients": 24
+      },
+      {
+        "Clean and organize kitchen: Clean cooking appliances": 24
+      },
+      {
+        "Clean and organize kitchen: Get cooking tools or utensils to use": 24
+      },
+      {
+        "Cook over the stovetop: Turn off the stovetop": 24
+      },
+      {
+        "MAKE_FLATBREAD: Flip or turn ingredients on a pan or pot": 24
+      },
+      {
+        "COOKING_GENERAL: Roll out the dough on a floured surface": 24
+      },
+      {
+        "Make recipe in blender: Add ingredients to the blender": 23
+      },
+      {
+        "General kitchen activity: Check the recipe instruction": 22
+      },
+      {
+        "MAKE_BREAD: Roll out the dough on a floured surface": 22
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Mix the dough in the dough mixer": 22
+      },
+      {
+        "Add ingredients to recipe: Add onion to recipe": 22
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare pasta sauce": 22
+      },
+      {
+        "Clean and organize kitchen: Store ingredients into a ziplock bag or container": 21
+      },
+      {
+        "Prepare and cook eggs: Stir the egg mixture on a pan to create small curds": 21
+      },
+      {
+        "MAKE_FLATBREAD: Add ingredients into a pan or pot": 21
+      },
+      {
+        "COOKING_COMMON: Turn off the blender": 21
+      },
+      {
+        "Prepare ingredients: Cut spring onion or leek": 20
+      },
+      {
+        "Prepare and cook eggs: Fry eggs on a pan until the egg white is set": 20
+      },
+      {
+        "GRIND_SPICE: Grind the spice until it is ground to your liking": 20
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Saute in a pan": 20
+      },
+      {
+        "Prepare ingredients: Cut spinach": 20
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 20
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Coat the dough with flour": 19
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add toppings on the dough": 19
+      },
+      {
+        "Cook over the stovetop: Remove ingredients from a pan or pot and serve": 19
+      },
+      {
+        "MAKE_PANCAKE: Stir ingredients": 19
+      },
+      {
+        "MAKE_POTATO_SALAD: Stir ingredients": 19
+      },
+      {
+        "General kitchen activity: Use computer": 19
+      },
+      {
+        "MAKE_BURRITO: Stir ingredients": 19
+      },
+      {
+        "MAKE_BREAD: OTHER": 19
+      },
+      {
+        "MAKE_FLATBREAD: Stir or move around ingredients on a pan or pot": 19
+      },
+      {
+        "COOKING_GENERAL: Stir ingredients": 18
+      },
+      {
+        "Prepare ingredients: Cut carrot": 18
+      },
+      {
+        "Add ingredients to recipe: Add fruits to recipe": 18
+      },
+      {
+        "Cook in the oven: Check and adjust the heat on the oven": 18
+      },
+      {
+        "MAKE_PANCAKE: OTHER": 18
+      },
+      {
+        "COOKING_GENERAL: Grate ingredients to shred or finely chop": 17
+      },
+      {
+        "MAKE_FLATBREAD: Stir ingredients": 17
+      },
+      {
+        "Prepare ingredients: Cut zucchini": 17
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with a mixer": 17
+      },
+      {
+        "COOKING_COMMON: Place the jar on the blender": 17
+      },
+      {
+        "COOKING_COMMON: Remove inredients from the blender": 17
+      },
+      {
+        "MAKE_PASTA: Stir or move around ingredients on a pan or pot": 17
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sieve or sift dry ingredients like flour or grains": 16
+      },
+      {
+        "Cook in the microwave: Cook ingredients in a microwave": 16
+      },
+      {
+        "COOKING_COMMON: Deep fry ingredients in oil": 16
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare sauce": 16
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Mix ingredients": 16
+      },
+      {
+        "Prepare and cook eggs: Make an egg mixture": 16
+      },
+      {
+        "General kitchen activity: Harvest crops, fruits, or vegetables": 16
+      },
+      {
+        "MAKE_PASTRY: Mix ingredients": 16
+      },
+      {
+        "COOKING_COMMON: Garnish the dish": 16
+      },
+      {
+        "MAKE_PUFFED_RICE: Put the sheet in the oven and bake at 350 degrees for 15 minutes": 16
+      },
+      {
+        "COOKING_COMMON: Marinate ingredients": 16
+      },
+      {
+        "Add ingredients to recipe: Add milk to recipe": 16
+      },
+      {
+        "Add ingredients to recipe: Add herbs to recipe": 16
+      },
+      {
+        "COOKING_COMMON: Clean dishes, utensils, and kitchen surfaces": 16
+      },
+      {
+        "Cook in the oven: Put ingredients into the oven": 16
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients in pantry or shelf": 15
+      },
+      {
+        "Prepare ingredients: Cut mango": 15
+      },
+      {
+        "Add ingredients to recipe: Add sweetener to recipe": 15
+      },
+      {
+        "Serve food or drinks: Serve drinks": 15
+      },
+      {
+        "Prepare ingredients: Cut cucumber": 15
+      },
+      {
+        "Prepare and cook eggs: Crack eggs into a bowl": 15
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Boil ingredients in water": 15
+      },
+      {
+        "Add ingredients to recipe: Add pepper spice to recipe": 15
+      },
+      {
+        "Prepare ingredients: Remove seeds from ingredients": 15
+      },
+      {
+        "Prepare ingredients: Cut mushroom": 14
+      },
+      {
+        "Cook rice: Serve the rice": 14
+      },
+      {
+        "Prepare and cook eggs: Beat eggs to create a homogeneous mixture": 14
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add unspecified seasoning to recipe": 14
+      },
+      {
+        "Add ingredients to recipe: Add cheese to recipe": 14
+      },
+      {
+        "Add ingredients to recipe: Add tomato to recipe": 14
+      },
+      {
+        "Prepare ingredients: Cut eggplant": 14
+      },
+      {
+        "Cook in the oven: Arrange ingredients in oven tray or baking pan": 14
+      },
+      {
+        "Make dumplings: Fold the wrapper in half to form a triangle shape": 14
+      },
+      {
+        "Prepare ingredients: Cut tomato": 13
+      },
+      {
+        "COOKING_COMMON: Fetch water into a pot": 13
+      },
+      {
+        "COOKING_COMMON: Fetch water into a bowl": 13
+      },
+      {
+        "MAKE_PANCAKE: Soak the pancakes in a bowl of syrup": 13
+      },
+      {
+        "Prepare ingredients: Cut other fruits": 13
+      },
+      {
+        "COOKING_COMMON: Check ingredients around on a pan or pot": 13
+      },
+      {
+        "Prepare ingredients: Cut okra": 13
+      },
+      {
+        "COOKING_COMMON: Pack or wrap ingredients": 13
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Stir or move around ingredients on a pan or pot": 13
+      },
+      {
+        "Prepare ingredients: Cut cabbage": 12
+      },
+      {
+        "Clean and organize kitchen: Return cooking tools or utensils after use": 12
+      },
+      {
+        "Cook over the stovetop: Pan sear meat or fish": 12
+      },
+      {
+        "Add ingredients to recipe: Add potato to recipe": 12
+      },
+      {
+        "Cook rice: Cook rice in rice cooker": 12
+      },
+      {
+        "Make dumplings: Add fillings to the dumplings": 12
+      },
+      {
+        "Cook in the microwave: Remove ingredients from the microwave": 11
+      },
+      {
+        "Prepare ingredients: Cut garlic": 11
+      },
+      {
+        "Clean and organize kitchen: Clean and clear kitchen floor": 11
+      },
+      {
+        "Cook in the oven: Turn on the oven": 11
+      },
+      {
+        "COOKING_COMMON: Simmer ingredients over low heat": 11
+      },
+      {
+        "Operate cooking equipment: Turn on the range hood": 11
+      },
+      {
+        "Prepare ingredients: Prepare corn": 11
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Boil ingredients in water": 11
+      },
+      {
+        "MAKE_TACO: OTHER": 11
+      },
+      {
+        "MAKE_LASAGNA: Layer 2 uncooked lasagna noodles, 1/3 of the ricotta cheese mixture, and 1/4 of the mozzarella cheese": 11
+      },
+      {
+        "Cook over the stovetop: Preheat a pan on the stovetop and add oil or butter": 11
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 11
+      },
+      {
+        "Cook rice: Cook rice in a pot": 10
+      },
+      {
+        "Prepare ingredients: Cut green bean": 10
+      },
+      {
+        "Cook over the stovetop: Adjust a pan or pot on the stovetop": 10
+      },
+      {
+        "MAKE_LASAGNA: Stir ingredients": 10
+      },
+      {
+        "PREPARE_MANGO: Add ingredients into a pan or pot": 10
+      },
+      {
+        "Add ingredients to recipe: Add beans to recipe": 9
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Boil ingredients in water": 9
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Operate the dough mixer": 9
+      },
+      {
+        "Clean and organize kitchen: Wash kitchen towel in kitchen sink": 9
+      },
+      {
+        "Add ingredients to recipe: Add grains to recipe": 9
+      },
+      {
+        "Add ingredients to recipe: Add flour or baking power to recipe": 9
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients into refrigerator or freezer": 9
+      },
+      {
+        "Prepare ingredients: Cut cheese": 9
+      },
+      {
+        "COOKING_COMMON: Mash ingredients using a fork, masher, or food processor": 9
+      },
+      {
+        "Operate cooking equipment: Set the timer": 9
+      },
+      {
+        "COOKING_COMMON: Remove ingredients from the oven": 9
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Stir ingredients": 9
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Stir ingredients": 9
+      },
+      {
+        "Clean and organize kitchen: Wash dishes and utensils in dishwasher": 9
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare bread or baked goods": 8
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Roll out the dough on a floured surface and cut into desired shapes": 8
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare soup": 8
+      },
+      {
+        "MAKE_CAKE: Mix ingredients": 8
+      },
+      {
+        "Cook over the stovetop: Heat oil in a pan or pot": 8
+      },
+      {
+        "COOKING_COMMON: Cover kitchen items or ingredients with kitchen wrap": 8
+      },
+      {
+        "MAKE_NOODLE_SOUP: Boil ingredients in water": 8
+      },
+      {
+        "MAKE_BURRITO: Roll up the tortilla into a burrito": 8
+      },
+      {
+        "Add ingredients to recipe: Add zucchini to recipe": 8
+      },
+      {
+        "COOKING_GENERAL: OTHER": 8
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Flip or turn ingredients on a pan or pot": 8
+      },
+      {
+        "MAKE_POTATO_SALAD: Add ingredients into a pan or pot": 8
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Add ingredients into a pan or pot": 8
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Deep fry the dough": 7
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Add unspecified seasoning to recipe": 7
+      },
+      {
+        "MAKE_PASTA: Mix ingredients": 7
+      },
+      {
+        "Add ingredients to recipe: Add garlic to recipe": 7
+      },
+      {
+        "COOKING_COMMON: Collect and arrange ingredients on countertop": 7
+      },
+      {
+        "Add ingredients to recipe: Add egg to recipe": 7
+      },
+      {
+        "Add ingredients to recipe: Add pepper to recipe": 7
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make pizza dough": 7
+      },
+      {
+        "Cook with boiling water: Steam ingredients over boiling water": 7
+      },
+      {
+        "MAKE_BURRITO: Make burrito fillings": 7
+      },
+      {
+        "Cook over the stovetop: Remove a pan or pot on the stovetop": 7
+      },
+      {
+        "Cook in the microwave: Put ingredients into the microwave": 7
+      },
+      {
+        "MAKE_STEW_OR_SOUP: OTHER": 7
+      },
+      {
+        "MAKE_BURRITO: Blend ingredients": 7
+      },
+      {
+        "Add ingredients to recipe: Add water into sauce or soup": 7
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Add ingredients into a pan or pot": 7
+      },
+      {
+        "MAKE_BOILED_EGGS: Add ingredients into a pan or pot": 7
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Stir ingredients": 7
+      },
+      {
+        "MAKE_PANCAKE: Stir or move around ingredients on a pan or pot": 7
+      },
+      {
+        "COOKING_COMMON: Open the blender top lid": 7
+      },
+      {
+        "Make dumplings: Seal the dumplings": 7
+      },
+      {
+        "MAKE_BREAD: Stir ingredients": 6
+      },
+      {
+        "COOKING_GENERAL: Boil ingredients in water": 6
+      },
+      {
+        "MAKE_TEA: Make tea from start to end": 6
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Mix ingredients": 6
+      },
+      {
+        "COOKING_COMMON: Check ingredients": 6
+      },
+      {
+        "General kitchen activity: Check the doneness of recipe": 6
+      },
+      {
+        "Cook in the oven: Reposition baked goods in oven": 6
+      },
+      {
+        "Serve food or drinks: Set the dining table": 6
+      },
+      {
+        "MAKE_SANDWICH: Stir ingredients": 6
+      },
+      {
+        "MAKE_PANCAKE: Mix ingredients": 6
+      },
+      {
+        "MAKE_PASTA: Cook for 10 minutes": 6
+      },
+      {
+        "MAKE_POTATO_SALAD: Mix ingredients": 6
+      },
+      {
+        "Add ingredients to recipe: Add chicken recipe": 6
+      },
+      {
+        "Cook with boiling water: Add hot boiling water to a container": 6
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Flip or turn ingredients on a pan or pot": 6
+      },
+      {
+        "MAKE_POTATO_SALAD: OTHER": 6
+      },
+      {
+        "Make bread-based dishes: Cook bread slices coated with eggs in a pan": 6
+      },
+      {
+        "Cook on the grill: Cook ingredients on the grill": 6
+      },
+      {
+        "Prepare and cook eggs: Pour the egg mixture to a pan": 6
+      },
+      {
+        "Add ingredients to recipe: Add toppings": 6
+      },
+      {
+        "COOKING_COMMON: Soak sliced onions in water": 6
+      },
+      {
+        "MAKE_TACO: Stir or move around ingredients on a pan or pot": 6
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: OTHER": 6
+      },
+      {
+        "Add ingredients to recipe: Add cabbage to recipe": 5
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add any additional ingredients to the mixture": 5
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare sandwiches": 5
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Mix together the ingredients": 5
+      },
+      {
+        "COOKING_COMMON: Adjust range hood power level": 5
+      },
+      {
+        "MAKE_BREAD: Mix ingredients": 5
+      },
+      {
+        "Prepare ingredients: Cut broccoli": 5
+      },
+      {
+        "COOKING_COMMON: Blanch ingredients in boiling water": 5
+      },
+      {
+        "Add ingredients to recipe: Add eggplant to recipe": 5
+      },
+      {
+        "Prepare and cook eggs: Add milk or broth to the egg mixture": 5
+      },
+      {
+        "Make dumplings: Pan fry the dumplings": 5
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare rice dishes": 5
+      },
+      {
+        "Prepare ingredients: Remove the hard shell of ingredient": 5
+      },
+      {
+        "MAKE_PASTRY: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "MAKE_BREAD: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "Cook with boiling water: Fill a pot or kettle with water": 5
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Arrange pastry shapes on a baking tray": 5
+      },
+      {
+        "MAKE_PANCAKE: Pour syrup on pancakes": 5
+      },
+      {
+        "ROAST_FLOUR: Blend ingredients": 5
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Add ingredients into a pan or pot": 5
+      },
+      {
+        "Prepare and cook eggs: Add beaten eggs to other ingredients to help bind them together": 5
+      },
+      {
+        "MAKE_DUMPLINGS: OTHER": 5
+      },
+      {
+        "MAKE_DUMPLINGS: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "MAKE_BURRITO: OTHER": 5
+      },
+      {
+        "MAKE_SUSHI_ROLL: OTHER": 5
+      },
+      {
+        "MAKE_SUSHI_ROLL: Spread rice evenly over the nori sheet": 5
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Grese dough to prevent it from sticking and easier to handle": 4
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Check dough texture": 4
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare meat dishes": 4
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare beans and lentils": 4
+      },
+      {
+        "Prepare ingredients: Cut ginger": 4
+      },
+      {
+        "General kitchen activity: Open window": 4
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Stir ingredients": 4
+      },
+      {
+        "COOKING_COMMON: Remove seed from ingredients": 4
+      },
+      {
+        "MAKE_PUFFED_RICE: Stir ingredients": 4
+      },
+      {
+        "MAKE_SALAD: Mix ingredients": 4
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Cook or prepare vegetables": 4
+      },
+      {
+        "Operate cooking equipment: Turn on the electric kettle": 4
+      },
+      {
+        "COOKING_COMMON: Check the temperature of recipe": 4
+      },
+      {
+        "COOKING_COMMON: Fetch water into a cup": 4
+      },
+      {
+        "Add ingredients to recipe: Add noodle to recipe": 4
+      },
+      {
+        "COOKING_GENERAL: Blend ingredients": 4
+      },
+      {
+        "MAKE_HAMBURGER_STEAK: Flip or turn ingredients on a pan or pot": 4
+      },
+      {
+        "Cook in the microwave: Check and adjust the setting on the microwave": 4
+      },
+      {
+        "MAKE_BREAD: Add ingredients into a pan or pot": 4
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Add ingredients into a pan or pot": 4
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_SALAD: Stir ingredients": 4
+      },
+      {
+        "MAKE_PASTRY: Stir ingredients": 4
+      },
+      {
+        "MAKE_NOODLE_SOUP: Add ingredients into a pan or pot": 4
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_HAMBURGER_STEAK: Add ingredients into a pan or pot": 4
+      },
+      {
+        "MAKE_SUSHI_ROLL: Lay a sheet of nori on a sushi rolling mat": 4
+      },
+      {
+        "MAKE_SUSHI_ROLL: Roll up the mat until the fillings are completely covered by the rice": 4
+      },
+      {
+        "MAKE_SUSHI_ROLL: Place your desired fillings on top of the rice": 4
+      },
+      {
+        "MAKE_RICE_OMELET: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_PORRIDGE: Add ingredients into a pan or pot": 4
+      },
+      {
+        "COOKING_GENERAL: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Grate ingredients to shred or finely chop": 3
+      },
+      {
+        "COOKING_COMMON: Drizzle a small amount of liquid over food": 3
+      },
+      {
+        "Add ingredients to recipe: Add tomato paste or tomato sauce to recipe": 3
+      },
+      {
+        "Add ingredients to recipe: Add carrots to recipe": 3
+      },
+      {
+        "Add ingredients to recipe: Add seafood recipe": 3
+      },
+      {
+        "GENERAL_COMMON: Play music": 3
+      },
+      {
+        "Cook rice: Wash and drain rice": 3
+      },
+      {
+        "MAKE_POTATO_SALAD: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "Cook with boiling water: Cook potatoes in boiling water": 3
+      },
+      {
+        "MAKE_RICE_BOWL: Stir ingredients": 3
+      },
+      {
+        "COOKING_GENERAL: Cook or prepare vegetables": 3
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Cook or prepare vegetables": 3
+      },
+      {
+        "Operate cooking equipment: Turn off the range hood": 3
+      },
+      {
+        "MAKE_NOODLE_SOUP: Stir ingredients": 3
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Stir ingredients": 3
+      },
+      {
+        "General kitchen activity: Use smartwatch": 3
+      },
+      {
+        "MAKE_HAMBURGER_STEAK: Stir ingredients": 3
+      },
+      {
+        "COOKING_COMMON: Put foil or baking parchment paper on an oven tray": 3
+      },
+      {
+        "Make drinks: Brew tea in hot water": 3
+      },
+      {
+        "MAKE_FRENCH_TOAST: Dip bread slices in the egg mixture, making sure to coat both sides well": 3
+      },
+      {
+        "Serve food or drinks: Serve hotpot": 3
+      },
+      {
+        "MAKE_SALAD: OTHER": 3
+      },
+      {
+        "MAKE_PASTRY: OTHER": 3
+      },
+      {
+        "MAKE_SANDWICH: Add ingredients into a pan or pot": 3
+      },
+      {
+        "PREPARE_MANGO: Stir or move around ingredients on a pan or pot": 3
+      },
+      {
+        "COOKING_COMMON: Remove spoiled parts of vegetables": 3
+      },
+      {
+        "General kitchen activity: Turn on the lights": 3
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Stir ingredients": 3
+      },
+      {
+        "COOKING_COMMON: Grind ingredients": 3
+      },
+      {
+        "PREPARE_NUT: OTHER": 3
+      },
+      {
+        "MAKE_RICE_OMELET: Add ingredients into a pan or pot": 3
+      },
+      {
+        "COOKING_COMMON: Whip ingredients using a whisk or mixer": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Blend ingredients": 2
+      },
+      {
+        "MAKE_PASTA: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "MAKE_BREAD: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_CAKE: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "ROAST_FLOUR: Mix ingredients": 2
+      },
+      {
+        "COOKING_COMMON: Cook with or prepare milk": 2
+      },
+      {
+        "MAKE_PUFFED_RICE: Put sand into a large pot": 2
+      },
+      {
+        "Make bread-based dishes: Toast some bread": 2
+      },
+      {
+        "Cook on the grill: Preheat the grill": 2
+      },
+      {
+        "MAKE_SANDWICH: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Saute in a pan": 2
+      },
+      {
+        "Prepare ingredients: Cut avocado": 2
+      },
+      {
+        "Cook in the oven: Turn off the oven": 2
+      },
+      {
+        "MAKE_POTATO_SALAD: Drain the potatoes and put them in a bowl": 2
+      },
+      {
+        "Add ingredients to recipe: Add vinegar to recipe": 2
+      },
+      {
+        "COOKING_COMMON: Coat ingredients in a dry mixture": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Put the meat in a pot and add water": 2
+      },
+      {
+        "Prepare ingredients: Cut celery": 2
+      },
+      {
+        "Add ingredients to recipe: Add cucumber to recipe": 2
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Saute in a pan": 2
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Stir ingredients": 2
+      },
+      {
+        "MAKE_PIZZA: OTHER": 2
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Boil ingredients in water": 2
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare noodle dishes": 2
+      },
+      {
+        "MAKE_TACO: Make salsa": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Boil ingredients in water": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Mix ingredients": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "MAKE_LASAGNA: Spread 1/2 cup of tomato sauce over the bottom of a 9x13 inch baking dish": 2
+      },
+      {
+        "Prepare and cook eggs: Remove egg shell": 2
+      },
+      {
+        "MAKE_HAMBURGER_STEAK: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "MAKE_HAMBURGER_STEAK: Mix ingredients": 2
+      },
+      {
+        "Add ingredients to recipe: Add tofu recipe": 2
+      },
+      {
+        "MAKE_BREAD: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Cook or prepare vegetables": 2
+      },
+      {
+        "Add ingredients to recipe: Add ketchup to recipe": 2
+      },
+      {
+        "MAKE_BURRITO: Cook or prepare vegetables": 2
+      },
+      {
+        "MAKE_BURRITO: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "MAKE_POTATO_SALAD: Boil ingredients in water": 2
+      },
+      {
+        "COOKING_COMMON: Open the lid of a pot or pan": 2
+      },
+      {
+        "General kitchen activity: Adjust camera": 2
+      },
+      {
+        "MAKE_RICE_OMELET: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "MAKE_PORRIDGE: Cook or prepare vegetables": 2
+      },
+      {
+        "MAKE_PORRIDGE: Stir ingredients": 2
+      },
+      {
+        "COOKING_COMMON: Fetch water into a pan": 2
+      },
+      {
+        "MAKE_HOTPOT: Stir ingredients": 2
+      },
+      {
+        "COOKING_COMMON: Get utensils": 2
+      },
+      {
+        "HOUSEKEEPING_COMMON: OTHER": 2
+      },
+      {
+        "Prepare and cook eggs: Mash boiled eggs to create a creamy texture": 2
+      },
+      {
+        "ROAST_FLOUR: Saute in a pan": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "Prepare and cook eggs: Add seasoning to the egg mixture": 2
+      },
+      {
+        "MAKE_POTATO_SALAD: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Mix ingredients": 2
+      },
+      {
+        "MAKE_PANCAKE: Add ingredients into a pan or pot": 2
+      },
+      {
+        "MAKE_TACO: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_TACO: Roll up the tortilla into a taco shape": 2
+      },
+      {
+        "COOKING_COMMON: Turn on the blender": 2
+      },
+      {
+        "Add ingredients to recipe: Add processed meat to recipe": 2
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Mix ingredients": 2
+      },
+      {
+        "MAKE_PASTA: OTHER": 2
+      },
+      {
+        "MAKE_SUSHI_ROLL: Stir ingredients": 2
+      },
+      {
+        "COOKING_COMMON: Wear kitchen gloves": 2
+      },
+      {
+        "Prepare ingredients: Cut yam": 2
+      },
+      {
+        "MAKE_CAKE: In another bowl, beat the butter and sugar until light and fluffy": 1
+      },
+      {
+        "MAKE_CAKE: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_CAKE: Stir ingredients": 1
+      },
+      {
+        "MAKE_CAKE: OTHER": 1
+      },
+      {
+        "Add ingredients to recipe: Add coffee to brew": 1
+      },
+      {
+        "MAKE_COFFEE: Make coffee from start to end": 1
+      },
+      {
+        "MAKE_FLATBREAD: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_DONUT: Mix ingredients": 1
+      },
+      {
+        "Prepare ingredients: Cut herbs": 1
+      },
+      {
+        "MAKE_GRILLED_DISH: OTHER": 1
+      },
+      {
+        "MAKE_SANDWICH: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_PANCAKE: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "General kitchen activity: Write a note": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add chocolate chips and nuts to the dough": 1
+      },
+      {
+        "Add ingredients to recipe: Add mustard to recipe": 1
+      },
+      {
+        "COOKING_COMMON: Braise ingredients in a pot with a small amount of liquid": 1
+      },
+      {
+        "Make bread-based dishes: Spread toppings on toast": 1
+      },
+      {
+        "MAKE_SANDWICH: Put the two slices together to make a sandwich": 1
+      },
+      {
+        "Cook with boiling water: Simmer ingredients over low heat": 1
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Prepare the ingredients and cookware": 1
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Mix ingredients": 1
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_TACO: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_TACO: Stir ingredients": 1
+      },
+      {
+        "COOKING_GENERAL: Saute in a pan": 1
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: OTHER": 1
+      },
+      {
+        "MAKE_NOODLE_SOUP: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Mix ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_YOGURT_BOWL: Add yogurt to the mug": 1
+      },
+      {
+        "MAKE_LASAGNA: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "Prepare ingredients: Cut bread": 1
+      },
+      {
+        "Add ingredients to recipe: Add bread crumb to recipe": 1
+      },
+      {
+        "MAKE_HAMBURGER_STEAK: Saute in a pan": 1
+      },
+      {
+        "Serve food or drinks: Get plates or bowls to serve food": 1
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add vegetables and let it simmer for another 30 minutes": 1
+      },
+      {
+        "MAKE_PASTA: Boil ingredients in water": 1
+      },
+      {
+        "General kitchen activity: Turn off the lights": 1
+      },
+      {
+        "MAKE_SUSHI_ROLL: Blend ingredients": 1
+      },
+      {
+        "MAKE_DRINKS_GENERAL: Make drinks from start to end": 1
+      },
+      {
+        "MAKE_STEAK_DISH: Flip the steak to cook the other side": 1
+      },
+      {
+        "Prepare ingredients: Cut cooked eggs": 1
+      },
+      {
+        "MAKE_FRENCH_TOAST: OTHER": 1
+      },
+      {
+        "MAKE_DRINKS_GENERAL: Pour hot water to a cup": 1
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: OTHER": 1
+      },
+      {
+        "MAKE_SALAD: Boil ingredients in water": 1
+      },
+      {
+        "General kitchen activity: Wear apron": 1
+      },
+      {
+        "COOKING_COMMON: Slice ingredients into thin even pieces": 1
+      },
+      {
+        "COOKING_COMMON: Score the dough for bake": 1
+      },
+      {
+        "COOKING_COMMON: Squeeze ingredients to extract excess water or juice": 1
+      },
+      {
+        "Prepare and cook eggs: Boil eggs in boiling water": 1
+      },
+      {
+        "Cook over the stovetop: Remove excess oil from a pan": 1
+      },
+      {
+        "ROAST_FLOUR: Stir ingredients": 1
+      },
+      {
+        "Cook in the oven: Remove ingredients into the oven": 1
+      },
+      {
+        "MAKE_RICE_BOWL: OTHER": 1
+      },
+      {
+        "MAKE_RICE_BOWL: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "USE_PHONE: Pick up the phone": 1
+      },
+      {
+        "Prepare ingredients: Cut kitchen wrap or foil": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Remove the dough from a mixing bowl": 1
+      },
+      {
+        "MAKE_PIZZA: Stir ingredients": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add seasoning to the dough or batter": 1
+      },
+      {
+        "MAKE_PIZZA: Mix ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: OTHER": 1
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "Add ingredients to recipe: Add ice to recipe": 1
+      },
+      {
+        "Add ingredients to recipe: Add spring onion to recipe": 1
+      },
+      {
+        "MAKE_DONUT: OTHER": 1
+      },
+      {
+        "MAKE_TACO: Add ingredients into a pan or pot": 1
+      },
+      {
+        "MAKE_TACO: Place ground beef, shredded cheese, and lettuce on the tortilla": 1
+      },
+      {
+        "MAKE_NOODLE_SOUP: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Add ingredients into a pan or pot": 1
+      },
+      {
+        "MAKE_PASTA: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "Add ingredients to recipe: Add mayonnaise to recipe": 1
+      },
+      {
+        "Add ingredients to recipe: Add broth or soup to recipe": 1
+      },
+      {
+        "MAKE_DUMPLINGS: Mix ingredients": 1
+      },
+      {
+        "MAKE_DUMPLINGS: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_BURRITO: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_BURRITO: Mix ingredients": 1
+      },
+      {
+        "MAKE_SUSHI_ROLL: Spread a thin layer of wasabi over the rice": 1
+      },
+      {
+        "PREPARE_POTATO: OTHER": 1
+      },
+      {
+        "Cook on the wood stove: Start the fire in the wood stove": 1
+      },
+      {
+        "Add ingredients to recipe: Add citrus ingredients to recipe": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: OTHER": 1
+      },
+      {
+        "MAKE_MEAT_MARINADE: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_MEAT_MARINADE: Mix the ingredients together with a spoon until they are fully incorporated": 1
+      },
+      {
+        "Prepare and cook eggs: Crack eggs into a pan": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sprinkle flour on top of bread": 1
+      },
+      {
+        "Operate cooking equipment: Check and adjust the heat on the electric kettle": 1
+      },
+      {
+        "Cook with boiling water: Blanch ingredients in boiling water": 1
+      },
+      {
+        "Make drinks: Add milk, heavy cream, sugar, or honey to the drink": 1
+      }
+    ],
+    "Test": [
+      {
+        "COOKING_COMMON: OTHER": 380
+      },
+      {
+        "Clean and organize kitchen: Wash dishes and utensils in kitchen sink": 331
+      },
+      {
+        "Cook over the stovetop: Stir fry ingredients in a wok or large pan": 235
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Roll out the dough on a floured surface": 213
+      },
+      {
+        "Clean and organize kitchen: Wash hands": 185
+      },
+      {
+        "Clean and organize kitchen: Dispose an item in the trash bin": 172
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with hands": 168
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Pipe the batter into desired shapes": 159
+      },
+      {
+        "Cook over the stovetop: Check and adjust the heat on the stovetop": 144
+      },
+      {
+        "Prepare ingredients: Wash ingredients": 142
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Coat the dough with flour": 140
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange cooking tools or utensils": 120
+      },
+      {
+        "Clean and organize kitchen: Put ingredients into refrigerator or freezer": 112
+      },
+      {
+        "Prepare ingredients: Peel the skin of ingredients": 104
+      },
+      {
+        "General kitchen activity: Use phone": 99
+      },
+      {
+        "Serve food or drinks: Serve food": 92
+      },
+      {
+        "Prepare ingredients: Cut other vegetables": 90
+      },
+      {
+        "General kitchen activity: Strain or drain liquids from ingredients": 89
+      },
+      {
+        "Cook over the stovetop: Add oil or butter on a pan": 89
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Arrange the dough on a baking tray": 88
+      },
+      {
+        "Serve food or drinks: Serve food on a plate": 84
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients on kitchen countertop for cooking": 83
+      },
+      {
+        "Add ingredients to recipe: Add spices to recipe": 75
+      },
+      {
+        "Clean and organize kitchen: Get ingredients from refrigerator or freezer": 71
+      },
+      {
+        "Clean and organize kitchen: Clean and clear kitchen surfaces": 70
+      },
+      {
+        "GENERAL_COMMON: OTHER": 70
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Evenly cook flatbread on both sides in a skillet over medium heat": 67
+      },
+      {
+        "Prepare ingredients: Cut onion": 58
+      },
+      {
+        "Prepare ingredients: Cut other fruits": 56
+      },
+      {
+        "Add ingredients to recipe: Add salt to recipe": 54
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir ingredients": 53
+      },
+      {
+        "Cook over the stovetop: Preheat a pan on the stovetop": 52
+      },
+      {
+        "Cook with boiling water: Boil water in a pot or kettle": 51
+      },
+      {
+        "Prepare ingredients: Cut other ingredients": 49
+      },
+      {
+        "Serve food or drinks: Eat and drink": 48
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Add ingredients into a pan or pot": 48
+      },
+      {
+        "Clean and organize kitchen: Wipe hands": 47
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Cut the dough into desired shapes": 46
+      },
+      {
+        "COOKING_COMMON: Fetch water into a container": 44
+      },
+      {
+        "General kitchen activity: Taste ingredients or recipe": 43
+      },
+      {
+        "Prepare ingredients: Cut meat or seafood": 43
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with hands or a mixer": 43
+      },
+      {
+        "General kitchen activity: Unpack or unwrap ingredients": 42
+      },
+      {
+        "Cook in the oven: Bake ingredients in oven": 40
+      },
+      {
+        "MAKE_FLATBREAD: OTHER": 39
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Transfer cooked flatbread to a plate or a bowl": 39
+      },
+      {
+        "Add ingredients to recipe: Add vegetables to recipe": 38
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add wet ingredients to the dough or batter": 38
+      },
+      {
+        "General kitchen activity: Cover kitchen items or ingredients with a lid": 37
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Flip the bread to cook the other side": 37
+      },
+      {
+        "Clean and organize kitchen: Get ingredients from pantry or shelf": 36
+      },
+      {
+        "Prepare ingredients: Cut pepper": 36
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make dough or batter by mixing flour, water, oil, and other ingredients": 36
+      },
+      {
+        "Cook in the oven: Check and adjust the heat on the oven": 34
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add ingredients into a pan or pot": 34
+      },
+      {
+        "Add ingredients to recipe: Add unspecified ingredient to recipe": 32
+      },
+      {
+        "Cook rice: Cook rice in rice cooker": 32
+      },
+      {
+        "Clean and organize kitchen: Get cooking tools or utensils to use": 31
+      },
+      {
+        "Cook over the stovetop: Turn on the stovetop": 31
+      },
+      {
+        "Cook over the stovetop: Turn off the stovetop": 30
+      },
+      {
+        "Serve food or drinks: Serve food on in a bowl": 30
+      },
+      {
+        "Cook in the oven: Reposition baked goods in oven": 30
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 29
+      },
+      {
+        "COOKING_COMMON: Return ingredients to pantry or shelf": 28
+      },
+      {
+        "COOKING_GENERAL: Mix ingredients": 28
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Stir ingredients": 28
+      },
+      {
+        "Prepare ingredients: Cut potato": 27
+      },
+      {
+        "Add ingredients to recipe: Add oil or butter to recipe": 27
+      },
+      {
+        "Prepare ingredients: Measure ingredients": 27
+      },
+      {
+        "MAKE_DUMPLINGS: Roll out the dough on a floured surface": 27
+      },
+      {
+        "Cook in the microwave: Cook ingredients in a microwave": 25
+      },
+      {
+        "Clean and organize kitchen: Organize and store food and ingredients": 25
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Add ingredients into a pan or pot": 25
+      },
+      {
+        "Cook with boiling water: Cook noodles in boiling water": 24
+      },
+      {
+        "Add ingredients to recipe: Add sauce to recipe": 24
+      },
+      {
+        "Prepare ingredients: Cut cucumber": 24
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Stir or move around ingredients on a pan or pot": 24
+      },
+      {
+        "COOKING_COMMON: Grind ingredients": 24
+      },
+      {
+        "MAKE_PASTA: Stir ingredients": 23
+      },
+      {
+        "Cook on the wood stove: Check and adjust the heat on the wood stove": 23
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Stir ingredients": 23
+      },
+      {
+        "Add ingredients to recipe: Add soy sauce to recipe": 23
+      },
+      {
+        "MAKE_BREAD: Roll out the dough on a floured surface": 22
+      },
+      {
+        "Make dumplings: Pan fry the dumplings": 22
+      },
+      {
+        "Add ingredients to recipe: Add onion to recipe": 21
+      },
+      {
+        "COOKING_COMMON: Remove ingredients from the oven": 21
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare pasta sauce": 21
+      },
+      {
+        "Add ingredients to recipe: Add meat recipe": 21
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Mix ingredients": 21
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir soup": 20
+      },
+      {
+        "Cook over the stovetop: Pan sear meat or fish": 20
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add dry ingredients to the dough or batter": 20
+      },
+      {
+        "Serve food or drinks: Set the dining table": 20
+      },
+      {
+        "Prepare ingredients: Cut tomato": 20
+      },
+      {
+        "Prepare and cook eggs: Fry eggs on a pan until the egg white is set": 19
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Fill a piping bag with the batter": 19
+      },
+      {
+        "Prepare ingredients: Cut carrot": 19
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: OTHER": 19
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Mix ingredients": 19
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Stir or move around ingredients on a pan or pot": 19
+      },
+      {
+        "MAKE_DONUT: Add ingredients into a pan or pot": 19
+      },
+      {
+        "MAKE_PASTRY: OTHER": 19
+      },
+      {
+        "MAKE_PASTA: Stir or move around ingredients on a pan or pot": 19
+      },
+      {
+        "MAKE_FLATBREAD: Add ingredients into a pan or pot": 19
+      },
+      {
+        "Cook rice: Serve the rice": 18
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Boil ingredients in water": 18
+      },
+      {
+        "Add ingredients to recipe: Add other seasoning to recipe": 18
+      },
+      {
+        "COOKING_COMMON: Pack or wrap ingredients": 18
+      },
+      {
+        "MAKE_STEW_OR_SOUP: OTHER": 18
+      },
+      {
+        "Cook on the grill: Cook ingredients on the grill": 18
+      },
+      {
+        "COOKING_COMMON: Remove spoiled parts of vegetables": 18
+      },
+      {
+        "Make bread-based dishes: Spread toppings on toast": 17
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Proof dough to rise": 17
+      },
+      {
+        "Prepare ingredients: Cut garlic": 17
+      },
+      {
+        "General kitchen activity: Check the doneness of recipe": 17
+      },
+      {
+        "Add ingredients to recipe: Add milk to recipe": 17
+      },
+      {
+        "MAKE_CAKE: Melt sugar in a pan to make caramel": 17
+      },
+      {
+        "Add ingredients to recipe: Add flour or baking power to recipe": 17
+      },
+      {
+        "Clean and organize kitchen: Clean cooking appliances": 16
+      },
+      {
+        "Cook over the stovetop: Put a pan or pot on the stovetop": 16
+      },
+      {
+        "COOKING_GENERAL: Stir ingredients": 16
+      },
+      {
+        "WATCH_TV: Watch the program": 16
+      },
+      {
+        "MAKE_NOODLE_SOUP: Stir ingredients": 16
+      },
+      {
+        "Add ingredients to recipe: Add tomato to recipe": 16
+      },
+      {
+        "Prepare ingredients: Cut mushroom": 15
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Shape the dough into balls": 15
+      },
+      {
+        "Serve food or drinks: Serve drinks": 15
+      },
+      {
+        "MAKE_RATATOUILLE: Add all vegetables to a baking dish": 15
+      },
+      {
+        "Clean and organize kitchen: Wipe dishes and utensils with clothes": 15
+      },
+      {
+        "Clean and organize kitchen: Clean up the kitchen area": 14
+      },
+      {
+        "Prepare and cook eggs: Beat eggs to create a homogeneous mixture": 14
+      },
+      {
+        "Add ingredients to recipe: Add herbs to recipe": 14
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare sauce": 14
+      },
+      {
+        "MAKE_BURRITO: Make burrito fillings": 14
+      },
+      {
+        "Prepare ingredients: Cut spring onion or leek": 14
+      },
+      {
+        "Cook rice: Cook rice in a pot": 14
+      },
+      {
+        "Cook in the microwave: Check and adjust the setting on the microwave": 14
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Mix ingredients": 14
+      },
+      {
+        "Add ingredients to recipe: Add pepper to recipe": 14
+      },
+      {
+        "COOKING_GENERAL: OTHER": 14
+      },
+      {
+        "MAKE_RISOTTO: Stir or move around ingredients on a pan or pot": 14
+      },
+      {
+        "Add ingredients to recipe: Add bread crumb to recipe": 14
+      },
+      {
+        "Prepare and cook eggs: Stir the egg mixture on a pan to create small curds": 13
+      },
+      {
+        "Make bread-based dishes: Toast some bread": 13
+      },
+      {
+        "COOKING_COMMON: Marinate ingredients": 13
+      },
+      {
+        "COOKING_COMMON: Fetch water into a pot": 12
+      },
+      {
+        "Serve food or drinks: Get plates or bowls to serve food": 12
+      },
+      {
+        "COOKING_COMMON: Whisk ingredients": 12
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Boil ingredients in water": 12
+      },
+      {
+        "Prepare ingredients: Cut green bean": 12
+      },
+      {
+        "Add ingredients to recipe: Add water into sauce or soup": 12
+      },
+      {
+        "MAKE_DUMPLINGS: Flip or turn ingredients on a pan or pot": 12
+      },
+      {
+        "Make recipe in blender: Add ingredients to the blender": 12
+      },
+      {
+        "Prepare ingredients: Cut broccoli": 11
+      },
+      {
+        "Prepare and cook eggs: Make an egg mixture": 11
+      },
+      {
+        "Cook in the microwave: Remove ingredients from the microwave": 11
+      },
+      {
+        "COOKING_COMMON: Garnish the dish": 11
+      },
+      {
+        "COOKING_COMMON: Check ingredients around on a pan or pot": 11
+      },
+      {
+        "MAKE_SALAD: Put all the ingredients into a bowl and mix them together": 11
+      },
+      {
+        "Add ingredients to recipe: Add garlic to recipe": 11
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Mix ingredients": 11
+      },
+      {
+        "Prepare ingredients: Cut cheese": 11
+      },
+      {
+        "Make dumplings: Add fillings to the dumplings": 11
+      },
+      {
+        "General kitchen activity: Check the recipe instruction": 11
+      },
+      {
+        "Add ingredients to recipe: Add sweetener to recipe": 11
+      },
+      {
+        "MAKE_PANCAKE: Mix ingredients": 11
+      },
+      {
+        "MAKE_PASTA: Cook for 10 minutes": 11
+      },
+      {
+        "PREPARE_COCONUT: OTHER": 11
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: OTHER": 11
+      },
+      {
+        "Prepare and cook eggs: Pour the egg mixture to a pan": 10
+      },
+      {
+        "Operate cooking equipment: Set the timer": 10
+      },
+      {
+        "Clean and organize kitchen: Wash dishes and utensils in dishwasher": 10
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare soup": 10
+      },
+      {
+        "Clean and organize kitchen: Store ingredients into a ziplock bag or container": 10
+      },
+      {
+        "Operate cooking equipment: Turn on the range hood": 10
+      },
+      {
+        "COOKING_COMMON: Fetch water into a pan": 10
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Prepare the ingredients, including rice, meat, vegetables and spices": 10
+      },
+      {
+        "COOKING_COMMON: Deep fry ingredients in oil": 10
+      },
+      {
+        "MAKE_SANDWICH: OTHER": 10
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Mix together the ingredients": 10
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Stir ingredients": 10
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sprinkle flour onto the cooking surface": 10
+      },
+      {
+        "Cook in the oven: Arrange ingredients in oven tray or baking pan": 10
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Add ingredients into a pan or pot": 10
+      },
+      {
+        "Prepare ingredients: Cut eggplant": 9
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add unspecified seasoning to recipe": 9
+      },
+      {
+        "Cook in the oven: Turn on the oven": 9
+      },
+      {
+        "Clean and organize kitchen: Return cooking tools or utensils after use": 9
+      },
+      {
+        "Add ingredients to recipe: Add cheese to recipe": 9
+      },
+      {
+        "Add ingredients to recipe: Add cabbage to recipe": 9
+      },
+      {
+        "Serve food or drinks: Serve hotpot": 9
+      },
+      {
+        "Prepare ingredients: Cut cabbage": 9
+      },
+      {
+        "COOKING_GENERAL: Boil ingredients in water": 9
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Sieve or sift dry ingredients like flour or grains": 9
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Roll out the dough on a floured surface and cut into desired shapes": 9
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Stir or move around ingredients on a pan or pot": 9
+      },
+      {
+        "Cook with boiling water: Add hot boiling water to a container": 9
+      },
+      {
+        "MAKE_PASTA: Add ingredients into a pan or pot": 9
+      },
+      {
+        "COOKING_COMMON: Blend ingredients in the blender": 9
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Grese dough to prevent it from sticking and easier to handle": 9
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Stir or move around ingredients on a pan or pot": 9
+      },
+      {
+        "MAKE_PANCAKE: Stir ingredients": 9
+      },
+      {
+        "Add ingredients to recipe: Add seafood recipe": 8
+      },
+      {
+        "Cook over the stovetop: Adjust a pan or pot on the stovetop": 8
+      },
+      {
+        "MAKE_PASTRY: Grate ingredients to shred or finely chop": 8
+      },
+      {
+        "COOKING_GENERAL: Blend ingredients": 8
+      },
+      {
+        "MAKE_CAKE: Spread melted sugar in a bowl": 8
+      },
+      {
+        "MAKE_RISOTTO: Mix ingredients": 8
+      },
+      {
+        "Cook in the oven: Put ingredients into the oven": 8
+      },
+      {
+        "Add ingredients to recipe: Add egg to recipe": 8
+      },
+      {
+        "COOKING_COMMON: Check ingredients": 8
+      },
+      {
+        "Add ingredients to recipe: Add potato to recipe": 8
+      },
+      {
+        "Add ingredients to recipe: Add pepper spice to recipe": 8
+      },
+      {
+        "Make dumplings: Seal the dumplings": 8
+      },
+      {
+        "Prepare ingredients: Remove seeds from ingredients": 8
+      },
+      {
+        "COOKING_GENERAL: Add ingredients into a pan or pot": 8
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Add ingredients into a pan or pot": 8
+      },
+      {
+        "MAKE_RICE_OMELET: Stir or move around ingredients on a pan or pot": 8
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients in pantry or shelf": 7
+      },
+      {
+        "Prepare ingredients: Cut yam": 7
+      },
+      {
+        "Add ingredients to recipe: Add fruits to recipe": 7
+      },
+      {
+        "MAKE_MEAT_MARINADE: Stir ingredients": 7
+      },
+      {
+        "COOKING_COMMON: Fetch water into a bowl": 7
+      },
+      {
+        "Add ingredients to recipe: Add eggplant to recipe": 7
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Grate ingredients to shred or finely chop": 7
+      },
+      {
+        "COOKING_GENERAL: Grate ingredients to shred or finely chop": 7
+      },
+      {
+        "Cook rice: Wash and drain rice": 7
+      },
+      {
+        "Add ingredients to recipe: Add cucumber to recipe": 7
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Stir ingredients": 7
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Boil ingredients in water": 7
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Stir ingredients": 7
+      },
+      {
+        "MAKE_PASTA: OTHER": 7
+      },
+      {
+        "Cook in the microwave: Put ingredients into the microwave": 7
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: OTHER": 7
+      },
+      {
+        "MAKE_BURRITO: Stir ingredients": 7
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare meat dishes": 6
+      },
+      {
+        "Add ingredients to recipe: Add tomato paste or tomato sauce to recipe": 6
+      },
+      {
+        "COOKING_COMMON: Simmer ingredients over low heat": 6
+      },
+      {
+        "COOKING_GENERAL: Add unspecified seasoning to recipe": 6
+      },
+      {
+        "Make drinks: Brew tea in hot water": 6
+      },
+      {
+        "COOKING_COMMON: Whip ingredients using a whisk or mixer": 6
+      },
+      {
+        "Add ingredients to recipe: Add processed meat to recipe": 6
+      },
+      {
+        "Prepare ingredients: Cut ginger": 6
+      },
+      {
+        "Clean and organize kitchen: Organize and arrange ingredients into refrigerator or freezer": 6
+      },
+      {
+        "Add ingredients to recipe: Add beans to recipe": 6
+      },
+      {
+        "Prepare ingredients: Cut spinach": 6
+      },
+      {
+        "Make bread-based dishes: Make toppings for toast": 6
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add fillings into the dough": 6
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Press down the dough to flatten it": 6
+      },
+      {
+        "MAKE_BURRITO: Add ingredients into a pan or pot": 6
+      },
+      {
+        "MAKE_FLATBREAD: Stir or move around ingredients on a pan or pot": 6
+      },
+      {
+        "MAKE_RATATOUILLE: Add ingredients into a pan or pot": 6
+      },
+      {
+        "MAKE_RICE_OMELET: Add ingredients into a pan or pot": 6
+      },
+      {
+        "MAKE_PANCAKE: Cook or prepare vegetables": 5
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Mix the dough in the dough mixer": 5
+      },
+      {
+        "COOKING_COMMON: Mash ingredients using a fork, masher, or food processor": 5
+      },
+      {
+        "Prepare and cook eggs: Boil eggs in boiling water": 5
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Saute in a pan": 5
+      },
+      {
+        "Prepare ingredients: Cut herbs": 5
+      },
+      {
+        "MAKE_CAKE: Mix ingredients": 5
+      },
+      {
+        "Prepare ingredients: Get ingredients": 5
+      },
+      {
+        "MAKE_TEA: Make tea from start to end": 5
+      },
+      {
+        "Clean and organize kitchen: Clean and clear kitchen floor": 5
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Stir ingredients": 5
+      },
+      {
+        "Prepare and cook eggs: Crack eggs into a bowl": 5
+      },
+      {
+        "Prepare ingredients: Cut bread": 5
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare bread or baked goods": 5
+      },
+      {
+        "MAKE_RICE_OMELET: Mix ingredients": 5
+      },
+      {
+        "Cook with boiling water: Fill a pot or kettle with water": 5
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Flip or turn ingredients on a pan or pot": 5
+      },
+      {
+        "Prepare and cook eggs: Mash boiled eggs to create a creamy texture": 5
+      },
+      {
+        "COOKING_COMMON: Cover the blender jar with lid": 5
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Add ingredients into a pan or pot": 5
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Add unspecified seasoning to recipe": 4
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Mix ingredients": 4
+      },
+      {
+        "Add ingredients to recipe: Add tofu recipe": 4
+      },
+      {
+        "General kitchen activity: Interact with animals": 4
+      },
+      {
+        "Cook with boiling water: Blanch ingredients in boiling water": 4
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare noodle dishes": 4
+      },
+      {
+        "Add ingredients to recipe: Add vinegar to recipe": 4
+      },
+      {
+        "Operate cooking equipment: Turn off the range hood": 4
+      },
+      {
+        "COOKING_COMMON: Coat ingredients in a dry mixture": 4
+      },
+      {
+        "MAKE_RATATOUILLE: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_RISOTTO: Stir ingredients": 4
+      },
+      {
+        "COOKING_COMMON: Get utensils": 4
+      },
+      {
+        "PREPARE_POTATO: Boil ingredients in water": 4
+      },
+      {
+        "Add ingredients to recipe: Add toppings": 4
+      },
+      {
+        "Cook over the stovetop: Preheat a pan on the stovetop and add oil or butter": 4
+      },
+      {
+        "Cook over the stovetop: Remove ingredients from a pan or pot and serve": 4
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Flip or turn ingredients on a pan or pot": 4
+      },
+      {
+        "COOKING_COMMON: Wear kitchen gloves": 4
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Add vegetables and let it simmer for another 30 minutes": 4
+      },
+      {
+        "MAKE_MEAT_MARINADE: Flip or turn ingredients on a pan or pot": 4
+      },
+      {
+        "COOKING_COMMON: Cover kitchen items or ingredients with kitchen wrap": 4
+      },
+      {
+        "COOKING_GENERAL: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "MAKE_BURRITO: OTHER": 4
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Add ingredients into a pan or pot": 4
+      },
+      {
+        "COOKING_COMMON: Remove inredients from the blender": 4
+      },
+      {
+        "COOKING_COMMON: Squeeze ingredients to extract excess water or juice": 4
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Add ingredients into a pan or pot": 4
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Mix ingredients": 4
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Stir or move around ingredients on a pan or pot": 4
+      },
+      {
+        "Prepare ingredients: Cut celery": 3
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Deep fry the dough": 3
+      },
+      {
+        "Add ingredients to recipe: Add chicken recipe": 3
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add toppings on the dough": 3
+      },
+      {
+        "General kitchen activity: Turn on the lights": 3
+      },
+      {
+        "Add ingredients to recipe: Add noodle to recipe": 3
+      },
+      {
+        "Prepare ingredients: Cut cooked eggs": 3
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add any additional ingredients to the mixture": 3
+      },
+      {
+        "COOKING_COMMON: Fetch water into a cup": 3
+      },
+      {
+        "MAKE_BURRITO: Lay out the tortilla on a flat surface": 3
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare rice dishes": 3
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add batter onto a skillet to cook": 3
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare beans and lentils": 3
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Mix ingredients": 3
+      },
+      {
+        "Add ingredients to recipe: Add mayonnaise to recipe": 3
+      },
+      {
+        "Cook with boiling water: Steam ingredients over boiling water": 3
+      },
+      {
+        "Prepare ingredients: Cut mango": 3
+      },
+      {
+        "GRIND_SPICE: Grind the spice until it is ground to your liking": 3
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "Cook or prepare a recipe: Cook or prepare sandwiches": 3
+      },
+      {
+        "Make recipe in blender: Add water to the blender": 3
+      },
+      {
+        "MAKE_NOODLE_SOUP: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "MAKE_NOODLE_SOUP: Boil ingredients in water": 3
+      },
+      {
+        "MAKE_RICE_BOWL: Mix ingredients": 3
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Cook or prepare vegetables": 3
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Add unspecified seasoning to recipe": 3
+      },
+      {
+        "Add ingredients to recipe: Add coffee to brew": 3
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Boil ingredients in water": 3
+      },
+      {
+        "Cook over the stovetop: Remove a pan or pot on the stovetop": 3
+      },
+      {
+        "MAKE_FRENCH_TOAST: OTHER": 3
+      },
+      {
+        "MAKE_FRENCH_TOAST: Dip bread slices in the egg mixture, making sure to coat both sides well": 3
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: OTHER": 3
+      },
+      {
+        "MAKE_RICE_BOWL: Stir ingredients": 3
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Boil ingredients in water": 3
+      },
+      {
+        "Prepare and cook eggs: Crack eggs into a pan": 3
+      },
+      {
+        "MAKE_RICE_OMELET: Saute in a pan": 3
+      },
+      {
+        "MAKE_TACO: Stir ingredients": 3
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Remove the dough from a mixing bowl": 3
+      },
+      {
+        "Prepare ingredients: Cut zucchini": 3
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: OTHER": 3
+      },
+      {
+        "Cook in the oven: Turn off the oven": 3
+      },
+      {
+        "MAKE_CAKE: Stir or move around ingredients on a pan or pot": 3
+      },
+      {
+        "MAKE_RATATOUILLE: Mix ingredients": 3
+      },
+      {
+        "MAKE_PASTRY: Flip or turn ingredients on a pan or pot": 3
+      },
+      {
+        "COOKING_COMMON: Open the blender top lid": 3
+      },
+      {
+        "MAKE_NOODLE_SOUP: OTHER": 3
+      },
+      {
+        "MAKE_BREAD: OTHER": 3
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Stir or move around ingredients on a pan or pot": 3
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Stir or move around ingredients on a pan or pot": 3
+      },
+      {
+        "MAKE_COTTAGE_CHEESE: OTHER": 3
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Stir or move around ingredients on a pan or pot": 3
+      },
+      {
+        "Add ingredients to recipe: Add broccoli to recipe": 2
+      },
+      {
+        "MAKE_PASTA: Mix ingredients": 2
+      },
+      {
+        "MAKE_OMELET: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "Add ingredients to recipe: Add ketchup to recipe": 2
+      },
+      {
+        "MAKE_PANCAKE: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "Clean and organize kitchen: Wash kitchen towel in kitchen sink": 2
+      },
+      {
+        "COOKING_COMMON: Blanch ingredients in boiling water": 2
+      },
+      {
+        "MAKE_SALAD: Stir ingredients": 2
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add chocolate chips and nuts to the dough": 2
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add sauce over the dough": 2
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Check dough texture": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Saute in a pan": 2
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "PREPARE_COCONUT: Cook or prepare vegetables": 2
+      },
+      {
+        "Clean and organize kitchen: Sort grocery from bags": 2
+      },
+      {
+        "Make dumplings: Fold the wrapper in half to form a triangle shape": 2
+      },
+      {
+        "COOKING_GENERAL: Roll out the dough on a floured surface": 2
+      },
+      {
+        "MAKE_BURRITO: Spread the rice evenly over the tortilla": 2
+      },
+      {
+        "MAKE_BURRITO: Spread the meat evenly over the tortilla": 2
+      },
+      {
+        "Prepare and cook eggs: Remove egg shell": 2
+      },
+      {
+        "Prepare ingredients: Cut avocado": 2
+      },
+      {
+        "COOKING_COMMON: Remove seed from ingredients": 2
+      },
+      {
+        "MAKE_DRINKS_GENERAL: Make drinks from start to end": 2
+      },
+      {
+        "MAKE_COFFEE: Make coffee from start to end": 2
+      },
+      {
+        "MAKE_BAKED_DISH: Blend ingredients": 2
+      },
+      {
+        "Add ingredients to recipe: Add mustard to recipe": 2
+      },
+      {
+        "General kitchen activity: Use computer": 2
+      },
+      {
+        "MAKE_PASTRY: Mix ingredients": 2
+      },
+      {
+        "COOKING_COMMON: Collect and arrange ingredients on countertop": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Put the meat in a pot and add water": 2
+      },
+      {
+        "MAKE_PANCAKE: Blend ingredients": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: OTHER": 2
+      },
+      {
+        "PREPARE_POTATO: Roll out the dough on a floured surface": 2
+      },
+      {
+        "COOKING_COMMON: Open the lid of a pot or pan": 2
+      },
+      {
+        "MAKE_NOODLE_SOUP: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "COOKING_COMMON: Soak sliced onions in water": 2
+      },
+      {
+        "Add ingredients to recipe: Add zucchini to recipe": 2
+      },
+      {
+        "MAKE_PANCAKE: Flip the pancakes and cook until golden brown, about 1 minute": 2
+      },
+      {
+        "Make drinks: Add milk, heavy cream, sugar, or honey to the drink": 2
+      },
+      {
+        "Cook on the grill: Preheat the grill": 2
+      },
+      {
+        "Prepare ingredients: Remove the hard shell of ingredient": 2
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Cook or prepare vegetables": 2
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Grate ingredients to shred or finely chop": 2
+      },
+      {
+        "MAKE_COTTAGE_CHEESE: Stir the mixture with a spoon until the curds separate from the whey": 2
+      },
+      {
+        "Prepare and cook eggs: Separate egg yolk and egg white into separate parts": 2
+      },
+      {
+        "MAKE_RICE_OMELET: Stir ingredients": 2
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Stir ingredients": 2
+      },
+      {
+        "MAKE_OMELET: Add ingredients into a pan or pot": 2
+      },
+      {
+        "MAKE_OMELET: Stir ingredients": 2
+      },
+      {
+        "Prepare ingredients: Cut seafood": 2
+      },
+      {
+        "MAKE_TACO: Blend ingredients": 2
+      },
+      {
+        "MAKE_TACO: Add ingredients into a pan or pot": 2
+      },
+      {
+        "Operate cooking equipment: Turn on the electric kettle": 2
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Knead dough with a mixer": 2
+      },
+      {
+        "MAKE_MEAT_MARINADE: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "Cook over the stovetop: Remove excess oil from a pan": 2
+      },
+      {
+        "COOKING_COMMON: Put foil or baking parchment paper on an oven tray": 2
+      },
+      {
+        "MAKE_NOODLE_SOUP: Add ingredients into a pan or pot": 2
+      },
+      {
+        "COOKING_COMMON: Turn on the blender": 2
+      },
+      {
+        "COOKING_COMMON: Check the temperature of recipe": 2
+      },
+      {
+        "MAKE_BAKED_DISH: Mix ingredients": 2
+      },
+      {
+        "MAKE_BREAD: Mix ingredients": 2
+      },
+      {
+        "MAKE_SANDWICH: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Add unspecified seasoning to recipe": 2
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_NOODLE_SOUP: Mix ingredients": 2
+      },
+      {
+        "Cook in the oven: Remove ingredients into the oven": 2
+      },
+      {
+        "COOKING_COMMON: Remove ingredients from the grill": 2
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Stir or move around ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Put bread on a pan over medium heat": 2
+      },
+      {
+        "COOKING_GENERAL: Saute in a pan": 2
+      },
+      {
+        "MAKE_FLATBREAD: Flip or turn ingredients on a pan or pot": 2
+      },
+      {
+        "MAKE_PASTA: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_DONUT: Roll out the dough on a floured surface": 1
+      },
+      {
+        "COOKING_COMMON: Fold whipped cream or eggs into a thicker mixture without deflating it": 1
+      },
+      {
+        "MAKE_PANCAKE: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "General kitchen activity: Harvest crops, fruits, or vegetables": 1
+      },
+      {
+        "MAKE_SALAD: Boil ingredients in water": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Fold in butter to the dough": 1
+      },
+      {
+        "MAKE_BREAD: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "Prepare ingredients: Prepare corn": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Arrange pastry shapes on a baking tray": 1
+      },
+      {
+        "COOKING_COMMON: Score the dough for bake": 1
+      },
+      {
+        "Add ingredients to recipe: Add broth or soup to recipe": 1
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Stir ingredients": 1
+      },
+      {
+        "MAKE_BREAD: Stir ingredients": 1
+      },
+      {
+        "MAKE_PASTRY: Stir ingredients": 1
+      },
+      {
+        "Add ingredients to recipe: Add grains to recipe": 1
+      },
+      {
+        "Prepare ingredients: Cut okra": 1
+      },
+      {
+        "MAKE_CAKE: Stir ingredients": 1
+      },
+      {
+        "MAKE_CAKE: Blend ingredients": 1
+      },
+      {
+        "Prepare and cook eggs: Add milk or broth to the egg mixture": 1
+      },
+      {
+        "MAKE_BURRITO: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_BURRITO: Blend ingredients": 1
+      },
+      {
+        "COOKING_COMMON: Cook with or prepare milk": 1
+      },
+      {
+        "MAKE_STEW_OR_SOUP: Blend ingredients": 1
+      },
+      {
+        "MAKE_HOTPOT: Stir ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Prepare the ingredients and cookware": 1
+      },
+      {
+        "MAKE_STIR_FRIED_NOODLES: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "MAKE_SAUSAGE_DISH: Turn the sausage over and cook for another 10 minutes": 1
+      },
+      {
+        "General kitchen activity: Use smartwatch": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "GRIND_SPICE: Remove the ground spice from the spice grinder": 1
+      },
+      {
+        "MAKE_RATATOUILLE: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Make pizza dough": 1
+      },
+      {
+        "MAKE_RISOTTO: Add the rice and saut\u00e9 for 1 minute": 1
+      },
+      {
+        "General kitchen activity: Wear apron": 1
+      },
+      {
+        "MAKING_MULTIPLE_RECIPES: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "General kitchen activity: Turn off the lights": 1
+      },
+      {
+        "MAKE_BREAD: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "Add ingredients to recipe: Add ice to recipe": 1
+      },
+      {
+        "MAKE_NOODLE_DISH_GENERAL: Blend ingredients": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Boil ingredients in water": 1
+      },
+      {
+        "MAKE_PASTA: Boil ingredients in water": 1
+      },
+      {
+        "PREPARE_POTATO: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "General kitchen activity: Adjust camera": 1
+      },
+      {
+        "General kitchen activity: Write a note": 1
+      },
+      {
+        "Cook over the stovetop: Heat oil in a pan or pot": 1
+      },
+      {
+        "Add ingredients to recipe: Add spring onion to recipe": 1
+      },
+      {
+        "COOKING_COMMON: Rest meat or baked food to allow juices to redistribute": 1
+      },
+      {
+        "Make drinks: Grind coffee beans": 1
+      },
+      {
+        "MAKE_WESTERN_BREAKFAST: Cook or prepare vegetables": 1
+      },
+      {
+        "Cook on the grill: Check and adjust the heat of grill": 1
+      },
+      {
+        "MAKE_STIR_FRIED_DISH_GENERAL: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Saute in a pan": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Blend ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Mix ingredients": 1
+      },
+      {
+        "MAKE_NOODLE_SOUP: Blend ingredients": 1
+      },
+      {
+        "MAKE_RICE_BOWL: Add unspecified seasoning to recipe": 1
+      },
+      {
+        "COOKING_COMMON: Clean dishes, utensils, and kitchen surfaces": 1
+      },
+      {
+        "MAKE_TIRAMISU: Stir ingredients": 1
+      },
+      {
+        "MAKE_TIRAMISU: Whisk until the mixture is smooth and creamy": 1
+      },
+      {
+        "General kitchen activity: Open window": 1
+      },
+      {
+        "Prepare ingredients: Cut kitchen wrap or foil": 1
+      },
+      {
+        "MAKE_STEAK_DISH: Flip the steak to cook the other side": 1
+      },
+      {
+        "MAKE_RICE_DISH_GENERAL: Add ingredients into a pan or pot": 1
+      },
+      {
+        "MAKE_OMELET: Add your choice of fillings such as cheese, veggies, or cooked meat": 1
+      },
+      {
+        "MAKE_OMELET: Mix ingredients": 1
+      },
+      {
+        "MAKE_PANCAKE: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_MEAT_MARINADE: Add ingredients into a pan or pot": 1
+      },
+      {
+        "MAKE_PASTRY: Bake the pastry in the oven until golden brown": 1
+      },
+      {
+        "Add ingredients to recipe: Add carrots to recipe": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Add seasoning to the dough or batter": 1
+      },
+      {
+        "COOKING_GENERAL: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "Add ingredients to recipe: Add citrus ingredients to recipe": 1
+      },
+      {
+        "MAKE_BURRITO: Spread the beans evenly over the tortilla": 1
+      },
+      {
+        "MAKE_BURRITO: Spread the cheese evenly over the tortilla": 1
+      },
+      {
+        "MAKE_HOTPOT: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "COOKING_GENERAL: Cook or prepare vegetables": 1
+      },
+      {
+        "MAKE_SALAD: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_NOODLE_SOUP: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "Cook on the wood stove: Start the fire in the wood stove": 1
+      },
+      {
+        "PREPARE_INGREDIENTS_GENERAL: Mix ingredients": 1
+      },
+      {
+        "MAKE_RISOTTO: Add ingredients into a pan or pot": 1
+      },
+      {
+        "MAKE_SANDWICH: Add ingredients into a pan or pot": 1
+      },
+      {
+        "Cook with boiling water: Simmer ingredients over low heat": 1
+      },
+      {
+        "COOKING_COMMON: Adjust range hood power level": 1
+      },
+      {
+        "PREPARE_POTATO: OTHER": 1
+      },
+      {
+        "Cook with boiling water: Cook potatoes in boiling water": 1
+      },
+      {
+        "MAKE_BREAD: Stir or move around ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_DONUT: Mix ingredients": 1
+      },
+      {
+        "MAKE_PAN_SEARED_MEAT_OR_FISH: Mix ingredients": 1
+      },
+      {
+        "MAKE_STIR_FRIED_RICE: Grate ingredients to shred or finely chop": 1
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Add ingredients into a pan or pot": 1
+      },
+      {
+        "MAKE_TOAST_WITH_TOPPINGS: Flip or turn ingredients on a pan or pot": 1
+      },
+      {
+        "MAKE_YOGURT_BOWL: Add yogurt to the mug": 1
+      },
+      {
+        "COOKING_COMMON: Put dough on kneading table": 1
+      },
+      {
+        "Make baked goods such as bread, cake, and pastry: Operate the dough mixer": 1
+      },
+      {
+        "MAKE_COTTAGE_CHEESE: Stir ingredients": 1
+      },
+      {
+        "MAKE_CAKE: OTHER": 1
+      },
+      {
+        "MAKE_CAKE: In another bowl, beat the butter and sugar until light and fluffy": 1
+      },
+      {
+        "Prepare and cook eggs: Add seasoning to the egg mixture": 1
+      },
+      {
+        "Cook in the microwave: Turn off microwave": 1
+      }
+    ]
+  }
+}
