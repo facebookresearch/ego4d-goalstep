@@ -2,11 +2,11 @@
 
 The VSLNet baseline is trained using the Narrations-as-Queries (NaQ) [codebase](https://github.com/srama2512/NaQ). Steps are below.
 
-##### Set up NaQ repository following official instructions
+### (1) Set up NaQ repository following official instructions
 Installation instructions can be found [here](https://github.com/srama2512/NaQ?tab=readme-ov-file#installation).
 
 
-##### Convert Ego4D GoalStep annotation jsons into the required format for NaQ
+### (2) Convert Ego4D GoalStep annotation jsons into the required format for NaQ
 
 ```
 # Parse annotations to NLQ format
@@ -17,7 +17,7 @@ python -m tools.parse_goalstep_jsons \
 Output: `data/annotations/train.json` and `data/annotations/val.json`
 
 
-##### Group omnivore video features for GoalStep videos
+### (3) Group omnivore video features for GoalStep videos
 Ensure you first download video features using the [Ego4D CLI](https://ego4d-data.org/docs/data/features/) to `{EGO4D_ROOT}`.
 ```
 python -m tools.aggregate_features \
@@ -27,7 +27,7 @@ python -m tools.aggregate_features \
 ```
 Output: `data/features/omnivore_video_swinl/*.pth` features for each video_uid
 
-##### Prepare dataset for consumption by NaQ codebase
+### (4) Prepare dataset for consumption by NaQ codebase
 ```
 python NaQ/utils/prepare_ego4d_dataset.py \
     --input_train_split data/annotations/train.json \
@@ -38,7 +38,7 @@ python NaQ/utils/prepare_ego4d_dataset.py \
 Output: `data/dataset/ego4d_goalstep/[train/val/test].json` in NaQ format.
 
 
-##### Train and evalaute the model
+### (5) Train and evalaute the model
 ```
 # Train VSLNet on GoalStep
 bash train.sh experiments/vslnet/goalstep/
