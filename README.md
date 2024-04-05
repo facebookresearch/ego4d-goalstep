@@ -5,7 +5,7 @@
 # Ego4D Goal-Step
 Ego4D Goal-Step: Toward Hierarchical Understanding of Procedural Activities (NeurIPS 2023)  
 [Yale Song](http://people.csail.mit.edu/yalesong/), [Eugene Byrne](https://www.gene.nyc/), [Tushar Nagarajan](https://tushar-n.github.io/), [Huiyu Wang](https://csrhddlam.github.io/), [Miguel Martin](https://github.com/miguelmartin75), [Lorenzo Torresani](https://ltorresa.github.io/)  
-[[OpenReview](https://openreview.net/forum?id=3BxYAaovKr)] [[Data visualization](https://visualize.ego4d-data.org/?q=%22benchmarks+include+goalstep%22)] [[EvalAI test server (coming)](https://)]
+[[OpenReview](https://openreview.net/forum?id=3BxYAaovKr)] [[Data visualization](https://visualize.ego4d-data.org/?q=%22benchmarks+include+goalstep%22)] [[EvalAI test server for step grounding]([https://](https://eval.ai/web/challenges/challenge-page/2188/overview))]
 
 
 ## Download
