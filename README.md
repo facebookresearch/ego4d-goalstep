@@ -97,5 +97,11 @@ Goal-step provides hierarchical annotations of procedural human activities in th
   - **segments**: A list of substep segments
     - ...
    
+
+## Baseline starter code
+We provide instructions to run the baselines in the paper to reproduce main results from Table 2. Specifically, in [step_grounding/README.md](step_grounding/README.md) we provide instructions to set up the VSLNet baseline for the step grounding task using the Narrations-as-Queries (NaQ) [codebase](https://github.com/srama2512/NaQ). 
+<!-- Goal/Step localization and Online Goal/Step detection starter code coming soon. -->
+
+
 ## License
 Ego4D Goal-Step is licensed under the [MIT License](https://github.com/facebookresearch/ego4d-goalstep/blob/main/LICENSE).
