@@ -9,19 +9,22 @@ Installation instructions can be found [here](https://github.com/srama2512/NaQ?t
 ### (2) Convert Ego4D GoalStep annotation jsons into the required format for NaQ
 
 ```
+# Put the ego4d metadata file to the data directory
+ln -s ${EGO4D_ROOT}/ego4d.json ../data/
+
 # Parse annotations to NLQ format
 python -m tools.parse_goalstep_jsons \
-    --annot_dir ${GOALSTEP_ANNOT_DIR} \
+    --annot_dir ../data/ \
     --out_dir data/annotations/
 ```
-Output: `data/annotations/train.json` and `data/annotations/val.json`
+Output: `data/annotations/[train|val|test].json`
 
 
 ### (3) Group omnivore video features for GoalStep videos
 Ensure you first download video features using the [Ego4D CLI](https://ego4d-data.org/docs/data/features/) to `{EGO4D_ROOT}`.
 ```
 python -m tools.aggregate_features \
-    --annot_dir ${GOALSTEP_ANNOT_DIR} \
+    --annot_dir data/annotations/ \
     --feature_dir ${EGO4D_ROOT}/omnivore_video_swinl/ \
     --out_dir data/features/omnivore_video_swinl/
 ```
@@ -43,7 +46,7 @@ Output: `data/dataset/ego4d_goalstep/[train/val/test].json` in NaQ format.
 # Train VSLNet on GoalStep
 bash train.sh experiments/vslnet/goalstep/
 
-# Perform inference on validation set
+# Perform inference on test set
 bash infer.sh experiments/vslnet/goalstep/
 ```
 

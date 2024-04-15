@@ -10,7 +10,7 @@ import argparse
 def run(src_dir, dst_dir, annot_dir):
 
     video_uids = set()
-    for split in ['train', 'val', 'test_unannotated']:
+    for split in ['train', 'valid', 'test']:
         json_fl = f'{annot_dir}/goalstep_{split}.json'
         annotations = json.load(open(json_fl))['videos']
         video_uids |= set([annot['video_uid'] for annot in annotations])
